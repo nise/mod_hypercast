@@ -1,0 +1,766 @@
+WEBVTT
+
+0
+00:00:00.000 --> 00:00:00.016
+{"time":0,"value":"pattern-Activity Log"}
+
+1
+00:00:00.750 --> 00:00:00.760
+{"time":750,"value":"textlabel-awareness"}
+
+2
+00:00:22.463 --> 00:00:22.473
+{"time":22463,"value":"footnote"}
+
+3
+00:00:28.515 --> 00:00:28.525
+{"time":28515,"value":"item-1"}
+
+4
+00:00:31.878 --> 00:00:31.888
+{"time":31878,"value":"item-0"}
+
+5
+00:00:37.601 --> 00:00:37.611
+{"time":37601,"value":"item-1"}
+
+6
+00:00:41.180 --> 00:00:41.190
+{"time":41180,"value":"item-0"}
+
+7
+00:00:46.675 --> 00:00:46.685
+{"time":46675,"value":"item-1"}
+
+8
+00:00:53.349 --> 00:00:53.359
+{"time":53349,"value":"item-0"}
+
+9
+00:01:01.401 --> 00:01:01.411
+{"time":61401,"value":"item-1"}
+
+10
+00:01:06.264 --> 00:01:06.274
+{"time":66264,"value":"item-0"}
+
+11
+00:01:06.264 --> 00:01:06.274
+{"time":66264,"value":"pattern-Activity Log"}
+
+12
+00:01:07.518 --> 00:01:07.528
+{"time":67518,"value":"item-1"}
+
+13
+00:01:10.063 --> 00:01:10.073
+{"time":70063,"value":"pattern-User List"}
+
+14
+00:01:10.882 --> 00:01:10.892
+{"time":70882,"value":"pattern-Interactive User Info"}
+
+15
+00:01:12.667 --> 00:01:12.677
+{"time":72667,"value":"pattern-Remote-Field-of-Vision"}
+
+16
+00:01 --> 00:01:15.010
+{"time":75000,"value":"pattern-Remote Selection"}
+
+17
+00:01:16.126 --> 00:01:16.136
+{"time":76126,"value":"pattern-Remote-Cursor"}
+
+18
+00:01:17.958 --> 00:01:17.968
+{"time":77958,"value":"pattern-Telepointer"}
+
+19
+00:01:19.344 --> 00:01:19.354
+{"time":79344,"value":"pattern-Activity-Indicator"}
+
+20
+00:01:21.460 --> 00:01:21.470
+{"time":81460,"value":"item-0"}
+
+21
+00:01:24.124 --> 00:01:24.134
+{"time":84124,"value":"pattern-Periodic Report"}
+
+22
+00:01:25.358 --> 00:01:25.368
+{"time":85358,"value":"pattern-Change Indicator"}
+
+23
+00:01:26.679 --> 00:01:26.689
+{"time":86679,"value":"pattern-Aliveness Indicator"}
+
+24
+00:01:28.626 --> 00:01:28.636
+{"time":88626,"value":"pattern-Away Message"}
+
+25
+00:01:29.568 --> 00:01:29.578
+{"time":89568,"value":"section-Vorbereitung"}
+
+26
+00:03:02.394 --> 00:03:02.404
+{"time":182394,"value":"discussion"}
+
+27
+00:03:11.221 --> 00:03:11.231
+{"time":191221,"value":"item-1"}
+
+28
+00:03:30.438 --> 00:03:30.448
+{"time":210438,"value":"item-0"}
+
+29
+00:03:40.281 --> 00:03:40.291
+{"time":220281,"value":"item-1"}
+
+30
+00:03:42.027 --> 00:03:42.037
+{"time":222027,"value":"item-0"}
+
+31
+00:03:43.700 --> 00:03:43.710
+{"time":223700,"value":"item-1"}
+
+32
+00:03:49.693 --> 00:03:49.703
+{"time":229693,"value":"item-0"}
+
+33
+00:04:02.884 --> 00:04:02.894
+{"time":242884,"value":"item-1"}
+
+34
+00:04:06.165 --> 00:04:06.175
+{"time":246165,"value":"item-0"}
+
+35
+00:04:09.375 --> 00:04:09.385
+{"time":249375,"value":"item-1"}
+
+36
+00:04:14.918 --> 00:04:14.928
+{"time":254918,"value":"section-Technische Grundlagen zur Vermittlung von Group Awareness"}
+
+37
+00:06:05.331 --> 00:06:05.341
+{"time":365331,"value":"citation-Dourish1992"}
+
+38
+00:07:13.655 --> 00:07:13.665
+{"time":433655,"value":"citation-Gross2013"}
+
+39
+00:07:26.095 --> 00:07:26.105
+{"time":446095,"value":"example"}
+
+40
+00:07:30.865 --> 00:07:30.875
+{"time":450865,"value":"url-https://github.com/ownCloud/core"}
+
+41
+00:07:50.893 --> 00:07:50.903
+{"time":470893,"value":"item-0"}
+
+42
+00:07:57.257 --> 00:07:57.267
+{"time":477257,"value":"item-1"}
+
+43
+00:08:04.180 --> 00:08:04.190
+{"time":484180,"value":"item-0"}
+
+44
+00:08:11.630 --> 00:08:11.640
+{"time":491630,"value":"item-1"}
+
+45
+00:08:59.341 --> 00:08:59.351
+{"time":539341,"value":"item-0"}
+
+46
+00:09:06.643 --> 00:09:06.653
+{"time":546643,"value":"item-1"}
+
+47
+00:09:21.203 --> 00:09:21.213
+{"time":561203,"value":"pattern-Activity Logs"}
+
+48
+00:09:28.948 --> 00:09:29.958
+{"time":568412,"value":"image-workspaceawarenesstable"}
+
+49
+00:11:26.707 --> 00:11:26.717
+{"time":686707,"value":"pattern-Periodic Reports"}
+
+50
+00:11:44.605 --> 00:11:44.615
+{"time":704605,"value":"pattern-Activity Indicator"}
+
+51
+00:12:02.363 --> 00:12:02.373
+{"time":722363,"value":"pattern-Activity Log"}
+
+52
+00:12:03.397 --> 00:12:03.407
+{"time":723397,"value":"pattern-Activity Indicator"}
+
+53
+00:12:05.246 --> 00:12:05.256
+{"time":725246,"value":"pattern-Periodic Report"}
+
+54
+00:12:06.658 --> 00:12:06.668
+{"time":726658,"value":"image-figureActivityLogDiagram"}
+
+55
+00:12:06.658 --> 00:12:06.668
+{"time":726658,"value":"figurecaption-Architektur eines Awareness-Systems (in Anlehnung an  (2007)"}
+
+56
+00:12:09.867 --> 00:12:09.877
+{"time":729867,"value":"figureref-figureActivityLogDiagram"}
+
+57
+00:12:35.634 --> 00:12:35.644
+{"time":755634,"value":"pattern-Activity Log"}
+
+58
+00:12:44.023 --> 00:12:44.033
+{"time":764023,"value":"pattern-Attention Screen"}
+
+59
+00:14:37.192 --> 00:14:37.202
+{"time":877192,"value":"section-Awareness-Entwurfsmuster"}
+
+60
+00:15:26.133 --> 00:15:26.143
+{"time":926133,"value":"pattern-Activity Log"}
+
+61
+00:15:32.240 --> 00:15:32.250
+{"time":932240,"value":"pattern-desc-Activity Log"}
+
+62
+00:15:54.644 --> 00:15:54.654
+{"time":954644,"value":"figureref-figureActivityLogDiagram"}
+
+63
+00:17:00.657 --> 00:17:00.667
+{"time":1020657,"value":"pattern-Activity Log"}
+
+64
+00:17:29.837 --> 00:17:29.847
+{"time":1049837,"value":"example"}
+
+65
+00:17:37.869 --> 00:17:37.879
+{"time":1057869,"value":"pattern-Activity Logs"}
+
+66
+00:18:07.400 --> 00:18:07.410
+{"time":1087400,"value":"image-fig/activities_ownCloud.png"}
+
+67
+00:18:07.400 --> 00:18:07.410
+{"time":1087400,"value":"imagecaption"}
+
+68
+00:18:10.509 --> 00:18:10.519
+{"time":1090509,"value":"textlabel-ownCloudActivities"}
+
+69
+00:18:25.270 --> 00:18:25.280
+{"time":1105270,"value":"citation-Schlichter1998"}
+
+70
+00:18:47.634 --> 00:18:47.644
+{"time":1127634,"value":"figureref-6-awareness2"}
+
+71
+00:18:50.192 --> 00:18:50.202
+{"time":1130192,"value":"image-6-awareness2"}
+
+72
+00:18:50.192 --> 00:18:50.202
+{"time":1130192,"value":"figurecaption-The role of awareness for group cohesion (Schümmer und Lukosch, 2007)"}
+
+73
+00:18:53.140 --> 00:18:53.150
+{"time":1133140,"value":"figureref-6-awareness2"}
+
+74
+00:19:10.493 --> 00:19:10.503
+{"time":1150493,"value":"figureref-6-awareness2"}
+
+75
+00:19:47.921 --> 00:19:47.931
+{"time":1187921,"value":"citation-Gutwin1996"}
+
+76
+00:20:03.163 --> 00:20:03.173
+{"time":1203163,"value":"citation-Gutwin1996,gutwin2002b"}
+
+77
+00:20:04.926 --> 00:20:04.936
+{"time":1204926,"value":"tableref-workspaceawarenesstable"}
+
+78
+00:20:24.006 --> 00:20:24.016
+{"time":1224006,"value":"subsection-Wahrnehmung synchroner Interaktionspartner"}
+
+79
+00:20:33.400 --> 00:20:33.410
+{"time":1233400,"value":"pattern-User List"}
+
+80
+00:20:34.352 --> 00:20:34.362
+{"time":1234352,"value":"pattern-desc-User List"}
+
+81
+00:20:44.257 --> 00:20:44.267
+{"time":1244257,"value":"pattern-User List"}
+
+82
+00:21:06.595 --> 00:21:06.605
+{"time":1266595,"value":"pattern-Collaborative Session"}
+
+83
+00:21:16.633 --> 00:21:16.643
+{"time":1276633,"value":"pattern-Virtual Me"}
+
+84
+00:21:20.075 --> 00:21:20.085
+{"time":1280075,"value":"pattern-User List"}
+
+85
+00:21:35.814 --> 00:21:35.824
+{"time":1295814,"value":"pattern-User List"}
+
+86
+00:21:44.610 --> 00:21:44.620
+{"time":1304610,"value":"pattern-User List"}
+
+87
+00:21:47.935 --> 00:21:47.945
+{"time":1307935,"value":"pattern-desc-Interactive User Info"}
+
+88
+00:22:06.493 --> 00:22:06.503
+{"time":1326493,"value":"pattern-User List"}
+
+89
+00:22:09.946 --> 00:22:09.956
+{"time":1329946,"value":"pattern-User List"}
+
+90
+00:22:20.586 --> 00:22:20.596
+{"time":1340586,"value":"pattern-User List"}
+
+91
+00:22:40.723 --> 00:22:40.733
+{"time":1360723,"value":"pattern-User List"}
+
+92
+00:22:42.306 --> 00:22:42.316
+{"time":1362306,"value":"pattern-User-Gallery"}
+
+93
+00:22:46.721 --> 00:22:46.731
+{"time":1366721,"value":"pattern-User Gallery"}
+
+94
+00:22:56.870 --> 00:22:56.880
+{"time":1376870,"value":"pattern-User Gallery"}
+
+95
+00:23:01.101 --> 00:23:01.111
+{"time":1381101,"value":"pattern-User List"}
+
+96
+00:23:06.484 --> 00:23:06.494
+{"time":1386484,"value":"pattern-Shared Workspace"}
+
+97
+00:23:09.905 --> 00:23:09.915
+{"time":1389905,"value":"pattern-Collaborative Session"}
+
+98
+00:23:13.465 --> 00:23:13.475
+{"time":1393465,"value":"pattern-User List"}
+
+99
+00:23:29.569 --> 00:23:29.579
+{"time":1409569,"value":"pattern-desc-Remote Cursor"}
+
+100
+00:23:37.383 --> 00:23:37.393
+{"time":1417383,"value":"pattern-desc-Remote Selection"}
+
+101
+00:23:50.130 --> 00:23:50.140
+{"time":1430130,"value":"pattern-desc-Remote Field of Vision"}
+
+102
+00:24:00.636 --> 00:24:00.646
+{"time":1440636,"value":"pattern-desc-Telepointer"}
+
+103
+00:24:45.474 --> 00:24:45.484
+{"time":1485474,"value":"pattern-Telepointer"}
+
+104
+00:25:16.405 --> 00:25:16.415
+{"time":1516405,"value":"pattern-Telecursor"}
+
+105
+00:25:17.923 --> 00:25:17.933
+{"time":1517923,"value":"pattern-Telepointer"}
+
+106
+00:26:53.382 --> 00:26:53.392
+{"time":1613382,"value":"citation-Long2005"}
+
+107
+00:26:55.593 --> 00:26:55.603
+{"time":1615593,"value":"example"}
+
+108
+00:27:47.702 --> 00:27:47.712
+{"time":1667702,"value":"image-fig/Shared_Editing.png"}
+
+109
+00:27:47.702 --> 00:27:47.712
+{"time":1667702,"value":"imagecaption"}
+
+110
+00:27:51.310 --> 00:27:51.320
+{"time":1671310,"value":"textlabel-ownCloudSharedEditor"}
+
+111
+00:27:57.206 --> 00:27:57.216
+{"time":1677206,"value":"pattern-User List"}
+
+112
+00:28:24.836 --> 00:28:24.846
+{"time":1704836,"value":"pattern-Activity Indicators"}
+
+113
+00:30:06.345 --> 00:30:06.355
+{"time":1806345,"value":"citation-rittenbruch2002"}
+
+114
+00:30:39.218 --> 00:30:39.228
+{"time":1839218,"value":"pattern-desc-Activity Indicator"}
+
+115
+00:30:46.027 --> 00:30:46.037
+{"time":1846027,"value":"subsection-Gruppenwahrnehmung bei asynchroner Interaktion"}
+
+116
+00:31:07.603 --> 00:31:07.613
+{"time":1867603,"value":"citation-Tam2004"}
+
+117
+00:31:10.463 --> 00:31:10.473
+{"time":1870463,"value":"tableref-workspaceawarenesstable"}
+
+118
+00:31:33.211 --> 00:31:33.221
+{"time":1893211,"value":"image-async-awareness"}
+
+119
+00:31:33.211 --> 00:31:33.221
+{"time":1893211,"value":"figurecaption-Die Rolle der Awareness in der asynchronen Kollaboration (Schümmer und Lukosch, 2007)"}
+
+120
+00:31:35.244 --> 00:31:35.254
+{"time":1895244,"value":"figureref-async-awareness"}
+
+121
+00:32:15.317 --> 00:32:15.327
+{"time":1935317,"value":"pattern-desc-Periodic Report"}
+
+122
+00:32:24.373 --> 00:32:24.383
+{"time":1944373,"value":"example"}
+
+123
+00:32:27.275 --> 00:32:27.285
+{"time":1947275,"value":"pattern-Periodic Reports"}
+
+124
+00:32:41.116 --> 00:32:41.126
+{"time":1961116,"value":"pattern-Activity Log"}
+
+125
+00:33:03.717 --> 00:33:03.727
+{"time":1983717,"value":"pattern-Change Indicator"}
+
+126
+00:33:05.957 --> 00:33:05.967
+{"time":1985957,"value":"pattern-desc-Change Indicator"}
+
+127
+00:33:25.641 --> 00:33:25.651
+{"time":2005641,"value":"pattern-Change Indicator"}
+
+128
+00:33:36.310 --> 00:33:36.320
+{"time":2016310,"value":"example"}
+
+129
+00:33:39.977 --> 00:33:39.987
+{"time":2019977,"value":"pattern-Change Indicator"}
+
+130
+00:34:13.099 --> 00:34:13.109
+{"time":2053099,"value":"pattern-Change Indicator"}
+
+131
+00:34:53.429 --> 00:34:53.439
+{"time":2093429,"value":"pattern-Change-Indicator"}
+
+132
+00:35:10.627 --> 00:35:10.637
+{"time":2110627,"value":"pattern-desc-Aliveness Indicator"}
+
+133
+00:35:29.405 --> 00:35:29.415
+{"time":2129405,"value":"pattern-desc-Away Message"}
+
+134
+00:36:04.636 --> 00:36:04.646
+{"time":2164636,"value":"subsection-Implementierung in Socket.IO"}
+
+135
+00:36:47.809 --> 00:36:47.819
+{"time":2207809,"value":"listing"}
+
+136
+00:36:47.809 --> 00:36:47.819
+{"time":2207809,"value":"listing"}
+
+137
+00:36:52.400 --> 00:36:52.410
+{"time":2212400,"value":"pattern-User List"}
+
+138
+00:37:02.470 --> 00:37:02.480
+{"time":2222470,"value":"footnote"}
+
+139
+00:37:03.120 --> 00:37:03.130
+{"time":2223120,"value":"section-Kritische Betrachtung der Awareness"}
+
+140
+00:37:05.359 --> 00:37:05.369
+{"time":2225359,"value":"subsection-Awareness und virtuelle Präsenz"}
+
+141
+00:38:18.374 --> 00:38:18.384
+{"time":2298374,"value":"citation-Lombard2006"}
+
+142
+00:39:05.895 --> 00:39:05.905
+{"time":2345895,"value":"item-1"}
+
+143
+00:39:07.223 --> 00:39:07.233
+{"time":2347223,"value":"item-0"}
+
+144
+00:39:09.153 --> 00:39:09.163
+{"time":2349153,"value":"item-1"}
+
+145
+00:39:10.619 --> 00:39:10.629
+{"time":2350619,"value":"item-0"}
+
+146
+00:39:12.295 --> 00:39:12.305
+{"time":2352295,"value":"item-1"}
+
+147
+00:39:15.924 --> 00:39:15.934
+{"time":2355924,"value":"tableref-tab:presence"}
+
+148
+00:39:36.140 --> 00:39:36.150
+{"time":2376140,"value":"discussion"}
+
+149
+00:39:55.489 --> 00:39:55.499
+{"time":2395489,"value":"tableref-tab:presence"}
+
+150
+00:40:30.257 --> 00:40:30.267
+{"time":2430257,"value":"subsection-Grenzen der Awareness in kooperativen Systemen"}
+
+151
+00:41:37.263 --> 00:41:37.273
+{"time":2497263,"value":"citation-Donath2014"}
+
+152
+00:42:35.091 --> 00:42:35.101
+{"time":2555091,"value":"citation-Greenberg2016"}
+
+153
+00:43:11.529 --> 00:43:11.539
+{"time":2591529,"value":"citation-Clark1991"}
+
+154
+00:43:42.567 --> 00:43:42.577
+{"time":2622567,"value":"citation-Greenberg2016"}
+
+155
+00:44:27.062 --> 00:44:27.072
+{"time":2667062,"value":"citation-Jimenez2013"}
+
+156
+00:44:42.469 --> 00:44:42.479
+{"time":2682469,"value":"citation-Greenberg2016,Donath2014"}
+
+157
+00:44:43.142 --> 00:44:43.152
+{"time":2683142,"value":"item-0"}
+
+158
+00:45:05.399 --> 00:45:05.409
+{"time":2705399,"value":"item-1"}
+
+159
+00:45:17.593 --> 00:45:17.603
+{"time":2717593,"value":"item-0"}
+
+160
+00:45:28.093 --> 00:45:28.103
+{"time":2728093,"value":"item-1"}
+
+161
+00:45:39.038 --> 00:45:39.048
+{"time":2739038,"value":"item-0"}
+
+162
+00:45:47.588 --> 00:45:47.598
+{"time":2747588,"value":"discussion"}
+
+163
+00:46:43.482 --> 00:46:43.492
+{"time":2803482,"value":"citation-Berger2017"}
+
+164
+00:47:18.942 --> 00:47:18.952
+{"time":2838942,"value":"section-Awareness als Deutung des Da-Seins und Mit-Seins"}
+
+165
+00:48:34.675 --> 00:48:34.685
+{"time":2914675,"value":"figureref-figureActivityLogDiagram"}
+
+166
+00:49:11.063 --> 00:49:11.073
+{"time":2951063,"value":"discussion"}
+
+167
+00:51:18.314 --> 00:51:18.324
+{"time":3078314,"value":"citation-Heidegger1927"}
+
+168
+00:51:45.672 --> 00:51:45.682
+{"time":3105672,"value":"citation-Zahavi2007"}
+
+169
+00:59:38.609 --> 00:59:38.619
+{"time":3578609,"value":"citation-luckner2001"}
+
+170
+01:03:08.829 --> 01:03:08.839
+{"time":3788829,"value":"tableref-workspaceawarenesstable"}
+
+171
+01:03:58.905 --> 01:03:58.915
+{"time":3838905,"value":"item-1"}
+
+172
+01:06:22.150 --> 01:06:22.160
+{"time":3982150,"value":"item-0"}
+
+173
+01:07:16.708 --> 01:07:16.718
+{"time":4036708,"value":"citation-luckner2001"}
+
+174
+01:08:30.067 --> 01:08:30.077
+{"time":4110067,"value":"discussion"}
+
+175
+01:08:57.921 --> 01:08:57.931
+{"time":4137921,"value":"item-1"}
+
+176
+01:09:21.519 --> 01:09:21.529
+{"time":4161519,"value":"item-0"}
+
+177
+01:10:47.142 --> 01:10:47.152
+{"time":4247142,"value":"pattern-User List"}
+
+178
+01:11:07.074 --> 01:11:07.084
+{"time":4267074,"value":"citation-luckner2001"}
+
+179
+01:11:39.726 --> 01:11:39.736
+{"time":4299726,"value":"item-1"}
+
+180
+01:12:46.821 --> 01:12:46.831
+{"time":4366821,"value":"example"}
+
+181
+01:13:03.092 --> 01:13:03.102
+{"time":4383092,"value":"citation-Teh2008"}
+
+182
+01:13:20.526 --> 01:13:20.536
+{"time":4400526,"value":"video-https://youtu.be/hQ6usrx-GPM"}
+
+183
+01:14:02.525 --> 01:14:02.535
+{"time":4442525,"value":"item-0"}
+
+184
+01:14:29.235 --> 01:14:29.245
+{"time":4469235,"value":"item-1"}
+
+185
+01:14:59.967 --> 01:14:59.977
+{"time":4499967,"value":"pattern-Activity Indicator"}
+
+186
+01:15:05.165 --> 01:15:05.175
+{"time":4505165,"value":"example"}
+
+187
+01:15:26.716 --> 01:15:26.726
+{"time":4526716,"value":"pattern-Activity-Indicator"}
+
+188
+01:16:08.665 --> 01:16:08.675
+{"time":4568665,"value":"citation-Zahavi2007"}
+
+189
+01:17:53.956 --> 01:17:53.966
+{"time":4673956,"value":"citation-luckner2001"}
+
+190
+01:18:49.914 --> 01:18:49.924
+{"time":4729914,"value":"citation-polanyi66"}
+

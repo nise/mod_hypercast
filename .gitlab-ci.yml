@@ -1,0 +1,42 @@
+stages:
+    - build
+    - deploy
+
+build:
+    stage: build
+    tags:
+        - docker
+    image: node:14.20.1-alpine3.16
+    script:
+        - echo "Build"
+        - cd vue
+        - npm install
+        - npm run build
+        - cd ..
+        - tar -czf project.tar.gz amd/ pix/ lang/ db/ classes/ tests/ assets/ *.php websockets/ composer.json composer.lock restart-websocket.sh
+    artifacts:
+        paths: 
+            - project.tar.gz
+        expire_in: 1 week
+
+deploy:
+    stage: deploy
+    tags:
+        - shell
+    dependencies:
+        - build
+    when: manual 
+    environment: production
+    before_script:
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    script:
+        - echo "Deploy"
+        - ssh-add <(echo "$SSH_PRIVATE_KEY" | tr -d '\r')
+        - scp -o StrictHostKeyChecking=no project.tar.gz develop@fapra-alpha2022.pi6.fernuni-hagen.de:/home/develop/tmp
+        - scp -o StrictHostKeyChecking=no deploy.sh develop@fapra-alpha2022.pi6.fernuni-hagen.de:/home/develop/tmp
+        - ssh -o StrictHostKeyChecking=no develop@fapra-alpha2022.pi6.fernuni-hagen.de 'sh /home/develop/tmp/deploy.sh'
+        - ssh -o StrictHostKeyChecking=no develop@fapra-alpha2022.pi6.fernuni-hagen.de 'docker exec moodle sh /var/www/mod/hypercast/restart-websocket.sh'
+        - ssh -o StrictHostKeyChecking=no develop@fapra-alpha2022.pi6.fernuni-hagen.de 'rm -r /home/develop/tmp/*'

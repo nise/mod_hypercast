@@ -1,0 +1,522 @@
+{
+	"info": {
+		"_postman_id": "8c3e6f3d-a599-45c8-b5ef-c73d91aba6ca",
+		"name": "Moodle hypercast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24254111"
+	},
+	"item": [
+		{
+			"name": "createGroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_createGroup&moodlewsrestformat=json&cmid=17&name=Meine erste Gruppe&description=Gruppe für CMID 17&visible=1&maxsize=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_createGroup"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "cmid",
+							"value": "17"
+						},
+						{
+							"key": "name",
+							"value": "Meine erste Gruppe"
+						},
+						{
+							"key": "description",
+							"value": "Gruppe für CMID 17"
+						},
+						{
+							"key": "visible",
+							"value": "1"
+						},
+						{
+							"key": "maxsize",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGroupDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_getGroupDetails&moodlewsrestformat=json&id=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_getGroupDetails"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllGroupDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_getAllGroupDetails&moodlewsrestformat=json&cmid=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_getAllGroupDetails"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "cmid",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateGroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_updateGroup&moodlewsrestformat=json&id=5&name=Herr Müllers Test&description=geänderte Beschreibung&visible=0&maxsize=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_updateGroup"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "name",
+							"value": "Herr Müllers Test"
+						},
+						{
+							"key": "description",
+							"value": "geänderte Beschreibung"
+						},
+						{
+							"key": "visible",
+							"value": "0"
+						},
+						{
+							"key": "maxsize",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteGroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_deleteGroup&moodlewsrestformat=json&id=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_deleteGroup"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+    {
+      "name": "createComment",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_createComment&moodlewsrestformat=json&comment=Dies ist eine Kommentar auf einen Kommentar&groupid=5&cmid=4&timestamp=123&referenceid=5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "webservice",
+            "rest",
+            "server.php"
+          ],
+          "query": [
+            {
+              "key": "wstoken",
+              "value": "{{wstoken}}"
+            },
+            {
+              "key": "wsfunction",
+              "value": "mod_hypercast_createComment"
+            },
+            {
+              "key": "moodlewsrestformat",
+              "value": "json"
+            },
+            {
+              "key": "comment",
+              "value": "Dies ist eine Kommentar auf einen Kommentar"
+            },
+            {
+              "key": "groupid",
+              "value": "5"
+            },
+            {
+              "key": "cmid",
+              "value": "4"
+            },
+            {
+              "key": "timestamp",
+              "value": "123"
+            },
+            {
+              "key": "referenceid",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "updateComment",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_updateComment&moodlewsrestformat=json&comment=Updated!!!&id=21",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "webservice",
+            "rest",
+            "server.php"
+          ],
+          "query": [
+            {
+              "key": "wstoken",
+              "value": "{{wstoken}}"
+            },
+            {
+              "key": "wsfunction",
+              "value": "mod_hypercast_updateComment"
+            },
+            {
+              "key": "moodlewsrestformat",
+              "value": "json"
+            },
+            {
+              "key": "comment",
+              "value": "Updated!!!"
+            },
+            {
+              "key": "id",
+              "value": "21"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deleteComment",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_deleteComment&moodlewsrestformat=json&id=21",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "webservice",
+            "rest",
+            "server.php"
+          ],
+          "query": [
+            {
+              "key": "wstoken",
+              "value": "{{wstoken}}"
+            },
+            {
+              "key": "wsfunction",
+              "value": "mod_hypercast_deleteComment"
+            },
+            {
+              "key": "moodlewsrestformat",
+              "value": "json"
+            },
+            {
+              "key": "id",
+              "value": "21"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getAllComments",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_getAllComments&moodlewsrestformat=json&cmid=4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "webservice",
+            "rest",
+            "server.php"
+          ],
+          "query": [
+            {
+              "key": "wstoken",
+              "value": "{{wstoken}}"
+            },
+            {
+              "key": "wsfunction",
+              "value": "mod_hypercast_getAllComments"
+            },
+            {
+              "key": "moodlewsrestformat",
+              "value": "json"
+            },
+            {
+              "key": "cmid",
+              "value": "4"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+		{
+			"name": "getInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=mod_hypercast_getInfo&moodlewsrestformat=json&cmid=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "mod_hypercast_getInfo"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "cmid",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "core_user::get_users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/webservice/rest/server.php?wstoken={{wstoken}}&wsfunction=core_user_get_users&moodlewsrestformat=json&criteria[0][key]=id&criteria[0][value]=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "{{wstoken}}"
+						},
+						{
+							"key": "wsfunction",
+							"value": "core_user_get_users"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "criteria[0][key]",
+							"value": "id"
+						},
+						{
+							"key": "criteria[0][value]",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "wstoken",
+			"value": "f3b8b90f7f9c6bf618f909996a1369b3",
+			"type": "default"
+		}
+	]
+}

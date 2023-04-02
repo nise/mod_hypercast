@@ -1,0 +1,1295 @@
+<?xml version="1.0"?><speak version="1.1"  xmlns="http://www.w3.org/2001/10/synthesis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/10/synthesis http://www.w3.org/TR/speech-synthesis11/synthesis.xsd" xml:lang="de-DE">
+
+
+
+
+
+<p><s> </s></p>
+
+
+
+
+<p><s><mark name="chapter-Awareness"/><break strength="strong" /><prosody rate="slow" pitch="low">Awareness</prosody><break strength="x-strong" /><mark name"textlabel-awareness" /></s></p>
+<p><s>In dieser Kurseinheit werden wir uns mit einem zentralen Element zur</s></p>
+<p><s>Unterstützung der Gruppenarbeit: Der Group Awareness (engl.</s>
+<s>für</s></p>
+<p><s>Gruppenbewusstsein), kurz Awareness.</s>
+<s>Awareness beschreibt die Wahrnehmung der</s></p>
+<p><s>Präsenz, der Aktionen und der Ziele anderer Gruppenmitglieder und</s></p>
+<p><s>setzt sie in Beziehung zu den eigenen Aktivitäten.<mark name="footnote" /> </s></p>
+
+<p><s><mark name="section-Lernziele"/><break strength="strong" /><prosody rate="slow" pitch="low">Lernziele</prosody><break strength="strong" /></s></p>
+<p><s>Nach der Bearbeitung dieser Kurseinheit sollten Sie in der Lage</s></p>
+<p><s>sein,</s></p>
+<p><s><break strength="medium" /></s></p>
+<p><s><mark name="item-1" /> die Begriffe Group Awareness und We-Awareness zu erklären,</s></p>
+<p><s><mark name="item-0" /> Awareness-Unterstützung für synchrone und asynchrone Arbeitsbereiche zu</s></p>
+<p><s>gestalten,</s></p>
+<p><s><mark name="item-1" /> angemessene Benachrichtigungsmechanismen zu entwickeln,</s></p>
+<p><s><mark name="item-0" /> Herausforderungen und Grenzen der Aufzeichnung und Wiedergabe der Group Awareness erläutern können</s></p>
+<p><s><mark name="item-1" /> die Rolle von Raum und Zeit in kooperativen Systemen mit den</s></p>
+<p><s>Erkenntnissen der Phänomenologie zu erklären,</s></p>
+<p><s><mark name="item-0" /> trotz Differenzen in Raum und Zeit ein gemeinsames Dasein im virtuellen</s></p>
+<p><s>Raum des kooperativen Systems zu gestalten und</s></p>
+<p><s><mark name="item-1" /> mit den folgenden Mustern im Design eines kooperativen Systems umzugehen:</s></p>
+<p><s><break strength="medium" /></s></p>
+<p><s><mark name="item-0" /> <mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" />,</s></p>
+<p><s><mark name="item-1" /> Muster für synchrone Group Awareness: <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" />, </s></p>
+<p><s><mark name="pattern-Interactive User Info" /><break strength="medium" />Interactive User Info<break strength="medium" />,  <mark name="pattern-Remote Field of</s></p>
+<p><s>Vision" /><break strength="medium" />Remote Field of</s></p>
+<p><s>Vision<break strength="medium" />, <mark name="pattern-Remote Selection" /><break strength="medium" />Remote Selection<break strength="medium" />, <mark name="pattern-Remote</s></p>
+<p><s>Cursor" /><break strength="medium" />Remote</s></p>
+<p><s>Cursor<break strength="medium" />, <mark name="pattern-Telepointer" /><break strength="medium" />Telepointer<break strength="medium" /> und <mark name="pattern-Activity</s></p>
+<p><s>Indicator" /><break strength="medium" />Activity</s></p>
+<p><s>Indicator<break strength="medium" />,</s></p>
+<p><s><mark name="item-0" />  Muster für asynchrone Group Awareness: <mark name="pattern-Periodic Report" /><break strength="medium" />Periodic Report<break strength="medium" />,  <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" />,  <mark name="pattern-Aliveness Indicator" /><break strength="medium" />Aliveness Indicator<break strength="medium" /> und <mark name="pattern-Away Message" /><break strength="medium" />Away Message<break strength="medium" />. </s></p>
+
+
+<p><s><mark name="section-Vorbereitung"/><break strength="strong" /><prosody rate="slow" pitch="low">Vorbereitung</prosody><break strength="strong" /></s></p>
+<p><s>Die Wahrnehmung unserer Umgebung ist auf den ersten Blick ein ganz alltäglicher</s></p>
+<p><s>Vorgang.</s>
+<s>Wo immer wir uns bewegen, können wir wahrnehmen, was um uns herum</s></p>
+<p><s>passiert.</s>
+<s>Wir erkennen, wenn Menschen neben uns gehen, wenn ein Auto unsere Wege</s></p>
+<p><s>kreuzt oder wenn uns ein Mensch entgegen kommt.</s>
+<s>Diese Liste von Phänomenen der</s></p>
+<p><s>Wahrnehmung ließe sich lange fortsetzen.</s></p>
+<p><s>In kooperativen Systemen ist die Wahrnehmung der Anderen meist eingeschränkt.</s></p>
+<p><s>Auch hierfür gibt es einen offensichtlichen Grund: Das Medium überträgt nur das,</s></p>
+<p><s>was im Medium zur Übertragung vorgesehen wurde.</s>
+<s>Wenn die Entwicklerinnen und</s></p>
+<p><s>Entwickler des Systems zum Beispiel nicht vorgesehen haben, dass ein</s></p>
+<p><s>gelangweilter Blick des Gegenüber übertragen wird, z.B. weil sie die</s></p>
+<p><s>Aufzeichnung und Übertragung eines Video-Bildes für irrelevant hielten, wird das</s></p>
+<p><s>Gegenüber diesen Blick auch nur schwer wahrnehmen können.</s></p>
+<p><s>Im Rahmen dieser Kurseinheit werden wir zunächst einige sozio-technische Muster</s></p>
+<p><s>zur Integration von Awareness-Informationen in einem kooperativen System</s></p>
+<p><s>kennenlernen.</s>
+<s>Danach soll ein Blick auf die Phänomenologie Ihnen Denkanstöße</s></p>
+<p><s>bieten, um die zu Grunde liegenden Mechanismen von Group Awareness besser zu</s></p>
+<p><s>verstehen.</s>
+<s>So werden Sie den Aspekt der Awareness, der im 3-K-Modell das</s></p>
+<p><s>zentrale Element eines kooperativen Systems bildet, aus zwei unterschiedlichen</s></p>
+<p><s>Perspektiven betrachten und in den Übungen zu dieser Kurseinheit selbst</s></p>
+<p><s>Mechanismen für ein Gruppenbewusstsein entwickeln.</s></p>
+<p><s><mark name="discussion"/><break strength="strong" /><prosody rate="slow" pitch="low">Diskussion</prosody><break strength="strong" /></s></p>
+<p><s>Bevor wir erste Mechanismen zur Vermittlung von Group Awareness kennenlernen,</s></p>
+<p><s>schlagen wir Ihnen ein Experiment vor:</s></p>
+<p><s><break strength="medium" /></s></p>
+<p><s>    <mark name="item-1" /> Begeben Sie sich mit einer Bekannten oder einem Bekannten an eine</s></p>
+<p><s>belebte Bus- oder S-Bahn-Haltestelle und setzen</s></p>
+<p><s>    Sie sich auf eine Wartebank.</s>
+<s>Schließen Sie für ein bis zwei Minuten die</s></p>
+<p><s>Augen, während Ihre Begleitung die Augen offen hält.</s>
+<s>Tauschen Sie sich mit Ihrer</s></p>
+<p><s>Begleitung über Ihre Erfahrungen aus:</s></p>
+<p><s>    <break strength="medium" /></s></p>
+<p><s>    <mark name="item-0" /> Versuchen Sie alleine aufgrund der nicht-visuellen Sinneserfahrungen</s></p>
+<p>zu</p>
+<p><s>    sagen, wie viele andere Menschen sich an der Haltestelle</s></p>
+<p><s>    befinden.</s></p>
+<p><s>    <mark name="item-1" /> Was tun diese Menschen?</s></p>
+<p><s>    <mark name="item-0" /> Gibt es Untergruppen?</s></p>
+<p><s>    <mark name="item-1" /> Gibt es irgendeine Verbindung zwischen Ihnen und den anderen</s></p>
+<p><s>anwesenden</s></p>
+<p><s>    Menschen?</s></p>
+<p><s>    </s></p>
+<p><s>    <mark name="item-0" /> Gehen Sie an einem Samstagmorgen um 7:00 Uhr durch eine</s></p>
+<p><s>    sonst belebte Straße in einer Stadt.</s>
+<s>Schauen Sie auf Spuren auf</s></p>
+<p><s>    der Straße und tauschen Sie sich mit Ihrer Begleitung zu den folgenden</s></p>
+<p><s>Fragen aus:</s></p>
+<p><s>    <break strength="medium" /></s></p>
+<p><s>    <mark name="item-1" /> Was ist in dieser Straße wohl am Freitag passiert?</s></p>
+<p><s>    <mark name="item-0" /> Was wird am Nachmittag in dieser Straße passieren?</s></p>
+<p><s>    <mark name="item-1" /> Gibt es in der Straße Orte, die am Freitag frequentierter waren als</s></p>
+<p><s>    andere?</s></p>
+<p><s>    </s></p>
+
+<p><s><break strength="strong" /></s></p>
+<p><s><mark name="section-Technische Grundlagen zur Vermittlung von Group Awareness"/><break strength="strong" /><prosody rate="slow" pitch="low">Technische Grundlagen zur Vermittlung von Group Awareness</prosody><break strength="strong" /></s></p>
+<p><s>Mit den Konzepten der Koordination, Kooperation und Kommunikation, die wir in</s></p>
+<p><s>den letzten Kurseinheiten kennengelernt haben, sind die Grundlagen für die</s></p>
+<p><s>Gestaltung von kooperativen Systemen gelegt.</s>
+<s>An vielen Stellen haben wir bisher</s></p>
+<p><s>einen recht pragmatischen Blick auf diese drei K verfolgt.</s>
+<s>Es ging jeweils</s></p>
+<p><s>darum, welche Werkzeuge für Koordination, Kooperation oder Kommunikation nötig</s></p>
+<p><s>sind.</s>
+<s>In Anlehnung an die Sprechakttheorie können wir auch sagen, dass es um den</s></p>
+<p><s>jeweiligen Akt ging, der in dem entsprechenden Themenfeld nötig ist: den</s></p>
+<p><s>Planungsakt bei der Koordination eines Gruppenprozesses, den Manipulationsakt</s></p>
+<p><s>bei der Veränderung von gemeinsam genutzten Artefakten oder den</s></p>
+<p><s>Kommunikationsakt beim Austausch von Lauten, Wörtern, Sätzen und Nachrichten.</s></p>
+<p><s>Wir haben in den vorangegangenen Kurseinheiten auch gesehen, dass die oben</s></p>
+<p><s>genannten Akte jeweils auf den Austausch, die Interaktion zwischen zwei oder</s></p>
+<p><s>mehr Menschen zielen.</s>
+<s>Die Akte haben einen Verweischarakter auf ein Gegenüber.</s></p>
+<p><s>Diese implizite oder explizite Intersubjektivität macht ein kooperatives System</s></p>
+<p><s>aus.</s>
+<s>Hier geht es nicht mehr nur um die Erzielung eines Resultats sondern auch</s></p>
+<p><s>und gerade um den Interaktionsprozess zwischen den am Resultat beteiligten</s></p>
+<p><s>Individuen und sozialen Systemen.</s>
+<s>Es gilt für jedes einzelne am Prozess</s></p>
+<p><s>beteiligte Subjekt die eigene Position im kooperativen System zu verstehen und</s></p>
+<p><s>die Positionen der anderen Gruppenmitglieder so weit interpretierend</s></p>
+<p><s>wahrzunehmen, wie sie für die eigenen Deutungen und Handlungen relevant sind.</s></p>
+<p><s>Wagen wir mit dieser Grundhaltung einen Blick auf die Definition von</s></p>
+<p><s>Awareness, wie sie bei <mark name="citation-Dourish1992" />(Dourish und Bellotti, <say-as interpret-as="date" format="y">1992</say-as>) zu finden ist: </s></p>
+<p><s><break strength="medium" />Zitat<break strength="medium" /></s></p>
+<p><s><lang xml:lang="en-GB">Awareness is an understanding of the activities of others, which provides a</s></p>
+<p><s>context for your own activity.</lang></s></p>
+<p><s><break strength="medium" />Zitatende<break strength="medium" /> </s></p>
+<p><s>Diese Definition legt die Grundlage für die im weiteren verlauf betrachteten Awareness-Muster.</s>
+<s>Sie verweist</s></p>
+<p><s>auf den oben genannten Zusammenhang zwischen Aktivitäten in einem sozialen Kontext.</s>
+<s>Es gilt, die Aktivitäten der Anderen zu verstehen und daraus handlungsrelevante Schlüsse für die eigenen Aktivitäten zu ziehen. </s></p>
+<p><s>Aber wie kann ein Verstehen der Aktivitäten der Anderen möglich sein?</s>
+<s>Und ist</s></p>
+<p><s>ein Verstehen der Aktivitäten ausreichend, um in einer Gruppe zu interagieren</s></p>
+<p><s>oder muss es nicht vielmehr um das Verstehen der Anderen gehen?</s>
+<s>Diese beiden</s></p>
+<p><s>Fragen zeigen bereits, dass die landläufige Definition von Awareness oft von</s></p>
+<p><s>einer großen Unschärfe geprägt ist: In vielen Fällen ist beim Design von</s></p>
+<p><s>Awareness-Funktionen lediglich die Fragestellung leitend, Aktivitäten zu</s></p>
+<p><s>erfassen und diese den anderen Gruppenmitgliedern zu visualisieren.</s></p>
+<p><s>Basistechnologien für Awareness <mark name="citation-Gross2013" />(Gross, <say-as interpret-as="date" format="y">2013</say-as>) betrachten folglich vor allem</s></p>
+<p><s>den Prozess des Erfassens, Speichern und Präsentieren von</s></p>
+<p><s>Wahrnehmungsinformationen.</s>
+<s>Schauen wir uns hierzu ein Beispiel an:</s></p>
+<p><s><mark name="example"/><break strength="strong" /><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /> Die Web-basierte Open-Source Kooperationsumgebung OwnCloud</s></p>
+<p><s>(<mark name="url-https://github.com/owncloud/core" />URL) protokolliert Aktivitäten der Nutzenden</s></p>
+<p><s>mit den in OwnCloud abgelegten Dateien.</s>
+<s>Für jede Änderung, die mittels des</s></p>
+<p><s>Controllers der Web-Anwendung ausgeführt wird, erstellt das System eine</s></p>
+<p><s>Repräsentation der Änderung in einer Datenbank.</s>
+<s>Diese enthält u. a. die</s></p>
+<p><s>folgenden Attribute: </s></p>
+
+<p><s><mark name="item-0" />Zeitpunkt (timestamp) der Aktivität in Form eines System-Zeitstempels des</s></p>
+<p><s>Servers.</s></p>
+<p><s><mark name="item-1" />Aktor (user): Die Kennung des Nutzers oder der Nutzerin, der oder die die</s></p>
+<p><s>Aktivität ausgeführt hat.</s></p>
+<p><s><mark name="item-0" />Betroffene (affected): Kennung der Nutzerin oder des Nutzers, die oder</s></p>
+<p><s>der von der Aktivität erfahren sollte.</s></p>
+<p><s><mark name="item-1" />Typ (type) und Betreff (subject) der Aktivität.</s>
+<s>Der Betreff gibt</s></p>
+<p><s>die Aktivität als Verb zusammen mit einem Aspekt (auf wen sich die Aktivität</s></p>
+<p><s>bezieht) an.</s>
+<s>Bei Dateien kann das Verb sein: erzeugt (created), verändert</s></p>
+<p><s>(changed), gelöscht (deleted) oder wiederhergestellt (restored).</s>
+<s>Außerdem gibt</s></p>
+<p><s>es Aktivitäten zum Teilen von Dateien, z.B. geteilt mit einem Benutzer oder</s></p>
+<p><s>einer Benutzerin (shared-user) oder geteilt mit einer Gruppe (shared-group).</s></p>
+<p><s>Der Aspekt stellt den Bezug auf den betroffenen Nutzer her (entweder</s></p>
+<p><s>self, wenn die Aktivität von dem betroffenen Nutzer selbst durchgeführt</s></p>
+<p><s>wurde oder by, wenn die ausführende Person sich von der zu</s></p>
+<p><s>benachrichtigenden Person unterscheidet).  </s></p>
+<p><s><mark name="item-0" />Anwendung (app): Die Komponente der ownCloud-Installation, mit der die</s></p>
+<p><s>Aktivität ausgeführt wurde.</s></p>
+<p><s><mark name="item-1" />Datei (file): Pfad der betroffenen Datei.</s></p>
+<p><s><mark name="item-0" />Objektkennung (object-id): Kennung der betroffenen Datei.</s></p>
+
+<p><s>Die Änderungen werden in einer Datenbank-Tabelle abgespeichert und sind</s></p>
+<p><s>dauerhaft verfügbar (im Sinne eines <mark name="pattern-Activity Logs" /><break strength="medium" />Activity Logs<break strength="medium" />.</s></p>
+<p><s>Einige Beispiele für Awareness-Daten von OwnCloud finden sich in folgendem</s></p>
+<p><s>Auszug aus der Activities-Tabelle:</s></p>
+<p><s></p>
+<p><s>Der erste Eintrag hält fest, dass die Nutzerin mit der Kennung alice den</s></p>
+<p><s>Ordner docs mit dem Benutzer mit der Kennung bob geteilt hat.</s></p>
+<p><s>Zu einem späteren Zeitpunkt hat alice ein neues Verzeichnis mit dem Namen</s></p>
+<p><s>reports erzeugt (Einträge 2 und 3).</s>
+<s>Das System weiß zu diesem Zeitpunkt,</s></p>
+<p><s>dass der Ordner für alice und bob sichtbar ist, weshalb zwei</s></p>
+<p><s>Einträge in der Tabelle angelegt werden.</s>
+<s>Sie unterscheiden sich in der</s></p>
+<p><s>betroffenen Person und im Attribut subject.</s>
+<s>Der eine Eintrag besagt, dass</s></p>
+<p><s>alice darüber informiert werden soll, dass sie selbst einen Ordner</s></p>
+<p><s>angelegt hat.</s>
+<s>Der andere Eintrag zu dieser Aktivität vermerkt, dass bob</s></p>
+<p><s>als Betroffener der Aktivität darüber informiert werden soll, dass alice</s></p>
+<p><s>die Datei erstellt hat.</s></p>
+<p><s>Die letzten beiden Aktivitätseinträge repräsentieren das Löschen einer Datei.</s>
+Da</p>
+<p><s>die Datei selbst nach dem Löschen nicht mehr verfügbar sein wird, ist es</s></p>
+<p><s>wichtig, dass nicht nur die object-id des gelöschten Objekts gespeichert</s></p>
+<p><s>wird: Sonst wären keine Metadaten zur Anzeige der Awareness-Informationen mehr</s></p>
+<p><s>verfügbar.</s>
+<s>OwnCloud speichert zusätzlich auch noch weitere Parameter zur</s></p>
+<p><s>Verwandlung des subject-Felds in eine Nachricht, worauf an dieser Stelle</s></p>
+<p><s>jedoch nicht weiter eingegangen werden soll.</s></p>
+<p><s>Die Repräsentation der Daten nimmt zu einem gewissen Grad die Visualisierung der</s></p>
+<p><s>Awareness-Informationen schon vorweg.</s>
+<s>Sie legen fest, welche Informationen für</s></p>
+<p><s>wen sichtbar sein werden.</s>
+<s>Das ist der Hauptgrund, warum bei einer Aktivität</s></p>
+<p><s>mehrere Einträge gespeichert werden, denn so kann zum Zeitpunkt der Speicherung</s></p>
+<p><s>die zu diesem Zeitpunkt gültige Sichtbarkeitssteuerung respektiert werden. </s></p>
+<p><s>Allerdings geht die Architektur von OwnCloud davon aus, dass unterschiedliche</s></p>
+<p><s>Medien zur Übermittlung von Awareness-Informationen genutzt werden können.</s>
+So</p>
+<p><s>können Aktivitäten gesammelt und im Sinne eines <mark name="pattern-Periodic Reports" /><break strength="medium" />Periodic Reports<break strength="medium" /> </s></p>
+<p><s>per e-Mail an die Nutzenden verschickt werden, die die Aktivität</s></p>
+<p><s>wahrnehmen sollen.</s>
+<s>Sind die zu benachrichtigenden Nutzenden gerade im System</s></p>
+<p><s>aktiv, so kann die Information auch synchron in ihrem Arbeitsbereich</s></p>
+<p><s>visualisiert werden (im Sinne eines <mark name="pattern-Activity Indicators" /><break strength="medium" />Activity Indicators<break strength="medium" />.</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Das obige Beispiel ist typisch für technisch orientierte Ansätze zur Vermittlung</s></p>
+<p><s>von Awareness-Informationen.</s>
+<s>Einige erste zentrale Muster zur Gestaltung von</s></p>
+<p><s>Awareness-Mechanismen in kooperativen Systemen haben Sie dabei auch bereits</s></p>
+<p><s>kennengelernt: <mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" />, <mark name="pattern-Activity Indicator" /><break strength="medium" />Activity Indicator<break strength="medium" /> und</s></p>
+<p><s><mark name="pattern-Periodic Report" /><break strength="medium" />Periodic Report<break strength="medium" />.</s></p>
+<p><s><mark name"figurelabel-figureActivityLogDiagram" /><mark name"figurecaption-Architektur eines Awareness-Systems (in Anlehnung an Gross und Koch (2007)" /></s></p>
+<p><s>Der generelle Aufbau eines Awareness-Systems ist in <mark name"figureref-figureActivityLogDiagram" />Abbildung <say-as interpret-as="ordinal">15</say-as> dargestellt.</s>
+<s>Sensoren nehmen Aktivitäten einer Nutzerin oder eines Nutzers an Client A wahr. Wahrnehmen kann hier sowohl physisch im Sinne von Sensoren in der Umgebung gemeint sein, als auch im Sinnes des Aufzeichnen des Daten- und Kontrollflusses in der Anwendung auf Client A.</s>
+<s>Informationen zu Aktivitäten, die von anderen Gruppenmitgliedern wahrgenommen werden können, werden an einen Server geschickt, der diese Informationen unter Umständen abspeichert (<mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" />), zeitlich verzögert oder ausdehnt und an andere Clients schickt und ggf.</s></p>
+<p><s>wieder durch einen Aufmerksamkeits-Filter (<mark name="pattern-Attention Screen" /><break strength="medium" />Attention Screen<break strength="medium" />) gefiltert an relevante Clients weitergibt.</s>
+<s>Dort werden sie dann den Nutzenden präsentiert.</s>
+<s>Der Weg über einen Server ist nicht unbedingt nötig - es kommt vor allem darauf an, dass auf dem Weg von Client A zu Client B die Wahrnehmungsinformationen so lange gespeichert werden, bis sie bei Client B angezeigt werden können und dass nur die Informationen angezeigt werden, die Client A teilen möchte und die Client B zu sehen bereit ist.</s></p>
+<p><s>Hierzu werden die Wahrnehmungsinformationen in der Regel persistent abgelegt</s></p>
+<p><s>(z.B. in einer Datenbank) und die  Gleichzeitigkeit wird ebenso relativ</s></p>
+<p><s>interpretiert, wie räumliche Ko-Lokation.</s>
+<s>Ist eine Benutzerin z.B. in Berlin, so</s></p>
+<p><s>kann sie virtuell am gleichen Ort sein, wie ein Benutzer in München.</s></p>
+<p><s>Dadurch, dass die Wahrnehmungsinformationen im Medium transportiert werden,</s></p>
+<p><s>lösen sie sich vom konkreten Raum von Client A und können in den Raum von Client</s></p>
+<p><s>B eingeblendet werden.</s>
+<s>Ebenso verhält es sich mit der virtuellen</s></p>
+<p><s>Gleichzeitigkeit: Eine Aktion, die an Client A wahrgenommen wurde, kann vom</s></p>
+<p><s>Server so weit verzögert werden, dass sie zu einem deutlich späteren Zeitpunkt</s></p>
+<p><s>von Client B dargstellt wird.</s>
+<s>Die wahrnehmende Person, die Client B nutzt, wird</s></p>
+<p><s>diese Aktion gleichzeitig mit anderen Aktivitäten wahrnehmen, die ihre Ursache</s></p>
+<p><s>jedoch zu unterschiedlichen Zeiten hatten. </s></p>
+<p><s>Wir werden im folgenden in zwei Schritten die Thematik der Group</s></p>
+<p><s>Awareness bearbeiten.</s>
+<s>In einem ersten Schritt lesen Sie einige der Muster aus</s></p>
+<p><s>dem Basistext.</s>
+<s>In einem zweiten Schritt werden wir dann mit einem Blick auf die</s></p>
+<p><s>philosophische Strömungen der Phänomenologie und des Existenzialismus kritisch</s></p>
+<p><s>hinterfragen, welche Aspekte der Wahrnehmung in einem kooperativen System</s></p>
+<p><s>überhaupt erfasst werden können und sollen.</s>
+<s>Hier werden wir die eben skizzierten</s></p>
+<p><s>Überlegungen zur Gleichzeitigkeit und zur Ko-Lokation weiter vertiefen.</s></p>
+<p><s><mark name="section-Awareness-Entwurfsmuster"/><break strength="strong" /><prosody rate="slow" pitch="low">Awareness-Entwurfsmuster</prosody><break strength="strong" /></s></p>
+<p><s>Wir unterscheiden zwischen synchronem und asynchronem Gruppenbewusstsein.</s>
+<s>Synchrones Gruppenbewusstsein hilft im Hier und Jetzt die eigenen Aktionen mit parallel ablaufenden Aktionen der anderen Gruppenmitglieder zu harmonisieren.</s>
+<s>Asynchrones Gruppenbewusstsein hilft die Geschichte der Gruppe besser zu verstehen und zukünftige Schritte auf Erkenntnisse aus der Gruppengeschichte aufzubauen.</s>
+<s>Wie wir eben gesehen haben, ist diese</s></p>
+<p><s>Unterscheidung ein relatives Konstrukt.</s>
+<s>Die Mechanismen zur Vermittlung von Gruppenbewusstsein sollen auch bei asynchronen Aktionen eine relative Gleichzeitigkeit herstellen, indem sie gleichzeitig mit anderen Aktionen vergegenwärtigt werden.</s></p>
+<p><s>Beiden Mechanismen liegt das Prinzip der Beobachtung von Benutzenden durch das System und der Auswertung der beobachteten Rohdaten zu Grunde, welches in dem <mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" /> Pattern beschrieben ist.</s>
+<s>Sie haben dieses Muster schon am Beispiel von OwnCloud kennengelernt:</s></p>
+<p><s><mark name="pattern-desc-Activity Log" /><break strength="medium" />Activity Log: Beobachte und speichere Informationen über die aktuellen Aktivitäten der einzelnen Nutzerinnen und Nutzer.<break strength="medium" /></s></p>
+<p><s>Die Aktivitäten der Nutzenden können im einfachsten Fall direkt dargestellt werden (wobei eine Speicherung nur im Transportmedium bzw. im Transportprotokoll erfolgt).</s>
+<s>Dabei ist zu beachten, welche Aktivitäten die Nutzenden sehen dürfen (die Filter in <mark name"figureref-figureActivityLogDiagram" />Abbildung <say-as interpret-as="ordinal">15</say-as>).</s></p>
+<p><s>Ist ein bearbeitetes Artefakt für die anderen Gruppenmitglieder unsichtbar, so sollte dieses auch nicht in den Aktivitätsberichten auftauchen.</s>
+<s>Ebenso ist festzulegen, wie lange die Einträge im Activity Log gespeichert werden dürfen.</s>
+<s>Hierfür stecken die Vorgaben des Datenschutzrechts den Rahmen ab. </s></p>
+<p><s>Datenschutz und das Recht auf Privatheit stehen nicht selten im Widerspruch mit dem Zweck der langfristigen Vermittlung von Gruppenbewusstsein.</s>
+<s>So finden sich in den meisten Ausführungen zum Schutz von Protokolldaten vor allem Hinweise, die sich auf die Nutzung der Daten zur Sicherstellung des Dienstes beziehen (z.B. zur Erkennung von Angriffen oder fehlerhaften Zugriffen auf den Dienst).</s>
+<s>Dass Protokolldaten auch für die langfristige Bereitstellung eines Gruppenbewusstseins nötig sein können, ist in der Regel nicht berücksichtigt. </s></p>
+<p><s>Hierfür ist in der Datenschutzvereinbarung eine separate Zweckbestimmung anzugeben (die, wie alle rechtlichen Fragen zum Betrieb des Systems, mit Juristen geprüft werden sollten). </s></p>
+<p><s>In einigen Fällen können Awareness-Informationen auch aus dem aktuellen Objektzustand der gemeinsamen Objekte rekonstruiert werden, weshalb dann ein <mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" /> nicht mehr nötig ist.</s>
+<s>Werden im kooperativen System zum Beispiel Bilder bearbeitet und wird nach jeder Bearbeitung eine neue Version des Bildes</s></p>
+<p><s>angelegt, so kann aus der Versionshistorie der Bilder auf die Art der Änderung geschlossen werden.</s>
+<s>Speichert das System zu jedem Bild auch noch eine Referenz auf die bearbeitende Person und das Datum der Erzeugung der Version, so können alle Informationen des oben genannten Awareness-Eintrags direkt aus der</s></p>
+<p><s>Versionshistorie des Bildes rekonstruiert werden.</s></p>
+<p><s><mark name="example"/><break strength="strong" /><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>OwnCloud visualisiert, wie oben bereits aus technischer Perspektive vorgestellt,</s></p>
+<p><s>die Einträge des <mark name="pattern-Activity Logs" /><break strength="medium" />Activity Logs<break strength="medium" /> auf einer Übersichtsseite zu</s></p>
+<p><s>Aktivitäten im Arbeitsbereich (vgl. ).</s>
+<s>Dabei wird für jede Aktivität angezeigt, wer</s></p>
+<p><s>diese durchgeführt hat (Identität der Nutzerin oder des Nutzers), wann diese</s></p>
+<p><s>Aktivität stattfand (als Datum oder als Zeitabstand zum aktuellen Zeitpunkt), um</s></p>
+<p><s>welche Aktivitätsklasse es sich handelt (erzeugen, ändern, teilen, löschen) und</s></p>
+<p><s>auf welchem Artefakt die Aktivität ausgeführt wurde. </s></p>
+<p><s> </s></p>
+
+
+<p><s> </s></p>
+<p><s>  </s></p>
+<p><s>  <mark name="image-fig/activities_owncloud.png" /></s></p>
+<p><s>  </s></p>
+<p><s>   </s></p>
+<p><s>  <mark name="imagecaption" />Aktivitäten in einem OwnCloud-Workspace.</s></p>
+<p><s><mark name"textlabel-ownCloudActivities" /></s></p>
+
+
+<p><s><break strength="strong" /></s></p>
+<p><s>In den zurückliegenden Teilabschnitten wurde Awareness auf der Ebene der Gemeinschaft oder Gruppe betrachtet.</s>
+<s>Nutzende sollten bei der Kommunikation unterstützt werden und sich der relevanten Aktivitäten der Gruppe bewußt werden.</s></p>
+<p><s>Bereits in den frühen Arbeiten von <mark name="citation-Schlichter1998" />(Schlichter und Kollegen, <say-as interpret-as="date" format="y">1998</say-as>) wird betont, <lang xml:lang="en-GB">awareness is needed in both contact facilitation in communities and teams, and for maintaining team work at a high performance level within the team.</lang> Wir finden häufig Situationen, in denen die Nutzenden unabhängig voneinander arbeiten und dann plötzlich beginnen, enger miteinander zusammenzuarbeiten, weil sie ein gemeinsames Bedürfnis haben.</s>
+<s>In <mark name"figureref-6-awareness2" />Abbildung <say-as interpret-as="ordinal">16</say-as> sind diese Wechsel dargestellt. </s></p>
+<p><s><mark name"figurelabel-6-awareness2" /><mark name"figurecaption-The role of awareness for group cohesion (Schümmer und Lukosch, 2007)" /></s></p>
+<p><s>Die unterschiedlichen Grade der Awareness sind der <mark name"figureref-6-awareness2" />Abbildung <say-as interpret-as="ordinal">16</say-as> durch graduell schattierte konzentrische Kreise dargestellt.</s>
+<s>Wenn Nutzende zu unterschiedlichen Zeiten an unterschiedlichen Artefakten arbeiten, teilen Sie nur eine minimale gegenseitige Awareness.</s>
+<s>Je enger sie zusammenarbeiten, desto größer wird der Grad der gegenseitigen Awareness.</s>
+<s>In der <mark name"figureref-6-awareness2" />Abbildung <say-as interpret-as="ordinal">16</say-as> wird dies durch die dunklen Kreise repräsentiert.</s>
+<s>In diesem Zusammenhang kann sich folgende Situation ergeben:</s></p>
+<p><s><break strength="medium" />Zitat<break strength="medium" /></s></p>
+<p><s>Paul und Anna fällt es bei all den verschiedenen Gruppenaktivitäten innerhalb der virtuellen Gemeinschaft nicht leicht sich gegenseitig im Blick zu behalten.</s>
+<s>Die Koordination im Sinne einer genauen Group Awarenes ist nun sehr wichtig.</s>
+<s>Paul und Anna müssen besser nachvollziehen können, was die einzelnen Gruppen machen.</s>
+<s>Jede Gruppe muss verstehen, wie sich ihre eigenen Aktivitäten auf die Ziele und Absichten der anderen Gruppen auswirken.</s>
+<s>Letztendlich müssen auch die Nutzenden die Auswirkungen ihres Handelns erkennen können.</s></p>
+<p><s><break strength="medium" />Zitatende<break strength="medium" /></s></p>
+<p><s><mark name="citation-Gutwin1996" />Gutwin und Greenberg (<say-as interpret-as="date" format="y">1996</say-as>) haben dafür den Begriff der workspace awareness geprägt und darunter den Bedarf an Awareness summiert, der bei der Zusammenarbeit von kleinen Gruppen in einem gemeinsamen Arbeitsbereich entsteht.</s>
+<s>Die beiden Autoren entwickelten daraus ein Referenzmodell <mark name="citation-Gutwin1996,gutwin2002b" />undefined, welches aus den in <mark name"tableref-workspaceawarenesstable" />Tabelle <say-as interpret-as="ordinal">4</say-as> formulierten Fragen besteht.</s>
+<s>Diese Fragen muss man typischer Weise beantworten, wenn man zur selben Zeit in einem Shared Workspace aktiv ist.</s></p>
+<p><s>object Promise</s></p>
+<p><s>Nachdem wir die grundlegende Bedeutung der Kollaborationsunterstützung diskutiert haben, schauen wir uns nun Entwurfsmuster zur Unterstützung der Awareness an.  </s></p>
+<p><s><mark name="subsection-Wahrnehmung synchroner Interaktionspartner"/><break strength="strong" /><prosody rate="slow" pitch="low">Wahrnehmung synchroner Interaktionspartner</prosody><break strength="strong" /></s></p>
+<p><s>Das wohl am häufigsten anzutreffende Mittel zur Vermittlung von synchronem Gruppenbewusstsein ist die <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" />.</s></p>
+<p><s><mark name="pattern-desc-User List" /><break strength="medium" />User List: Zeige, welche Personen zur gleichen Zeit</s></p>
+<p><s>an einer Collaborative Session<break strength="medium" /> teilnehmen.</s></p>
+<p><s>Das System protokolliert für die Realisierung einer <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" />,</s></p>
+<p><s>welche Nutzenden gerade in einem Arbeitsbereich oder allgemein in einer Sitzung</s></p>
+<p><s>aktiv sind.</s>
+<s>Beginnt ein Client die Anzeige eines kooperativen Arbeitsbereichs,</s></p>
+<p><s>so wird hierfür eine Aktivität erzeugt (entweder beim Server oder beim Client)</s></p>
+<p><s>und diese Aktivität geteilt.</s>
+<s>Alternativ wird die Menge der teilnehmenden</s></p>
+<p><s>Nutzenden in der <mark name="pattern-Collaborative Session" /><break strength="medium" />Collaborative Session<break strength="medium" /> - also im Modell -</s></p>
+<p><s>abgelegt.</s>
+<s>Anderen Nutzenden der Session werden diese Informationen in der Session angezeigt, bspw. mittels des <mark name="pattern-Virtual Me" /><break strength="medium" />Virtual Me<break strength="medium" /> der Session-Mitglieder.</s></p>
+<p><s>Mit einer <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> wird vor allem die Frage beantwortet, wer in</s></p>
+<p><s>einem Kooperationskontext anwesend ist.</s>
+<s>Weitere Informationen, bspw. zu den</s></p>
+<p><s>Rollen der Teilnehmenden oder zu den aktuellen Aktivitäten der Nutzenden können</s></p>
+<p><s>in die <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> integriert werden (z.B. mittels Badges an den</s></p>
+<p><s>Nutzerbildern).</s>
+<s>Das schließt auch die Möglichkeit mit ein, direkt mit den in der</s></p>
+<p><s><mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> genannten Nutzenden zu interagieren.</s></p>
+<p><s><mark name="pattern-desc-Interactive User Info" /><break strength="medium" />Interactive User Info: Statte die Namen und/oder Fotos</s></p>
+<p><s>kooperierender Nutzender mit einem Kontextmenü aus, über das die lokal</s></p>
+<p><s>arbeitende Person mit der entfernt arbeitenden Person eine Interaktion beginnen</s></p>
+<p><s>oder mehr über die Person erfahren kann.<break strength="medium" /></s></p>
+<p><s>Ein generelles Problem bei einer  <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> ist die Skalierung. </s></p>
+<p><s>Meist wird die <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> nur dort eingesetzt, wo alle in einer</s></p>
+<p><s>Sitzung kooperierenden Nutzenden gleichzeitig auf dem Bildschirm dargestellt</s></p>
+<p><s>werden können.</s>
+<s>Ein Scrollen der <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> ist für synchrone</s></p>
+<p><s>Awareness nicht zu empfehlen, da der Mehraufwand des Scrollens den Umgang mit</s></p>
+<p><s>der User List zu einer Vordergrundaktivität werden lässt (im Gegensatz zu einer</s></p>
+<p><s>Hintergrundaktivität beim periphären Wahrnehmen der dargestellten Nutzerinnen</s></p>
+<p><s>und Nutzer). </s></p>
+<p><s>Hierin unterscheidet sich die <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> von der <mark name="pattern-User</s></p>
+<p><s>Gallery" /><break strength="medium" />User</s></p>
+<p><s>Gallery<break strength="medium" /> (vgl. Kurseinheit 2).</s>
+<s>In der <mark name="pattern-User Gallery" /><break strength="medium" />User Gallery<break strength="medium" /> geht es um die</s></p>
+<p><s>Wahrnehmung der gesamten Community und die Identifikation von möglichen</s></p>
+<p><s>Kooperationspartnern.</s>
+<s>Die Exploration der <mark name="pattern-User Gallery" /><break strength="medium" />User Gallery<break strength="medium" /> ist ein</s></p>
+<p><s>aktiver Prozess.</s>
+<s>In der <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> geht es um die Wahrnehmung der</s></p>
+<p><s>Gruppenmitglieder, die aktuell in einem <mark name="pattern-Shared Workspace" /><break strength="medium" />Shared Workspace<break strength="medium" /> oder</s></p>
+<p><s>allgemein in einer <mark name="pattern-Collaborative Session" /><break strength="medium" />Collaborative Session<break strength="medium" /> aktiv sind.</s>
+<s>Der Umgang mit der <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> ist ein passiver Vorgang.</s></p>
+<p><s>Die Präsenz der anderen Nutzenden sagt in der Regel noch wenig über ihre</s></p>
+<p><s>aktuellen Tätigkeiten aus.</s>
+<s>Deshalb haben sich vier weitere Muster vor allem für</s></p>
+<p><s>die synchrone Kooperation an gemeinsamen Dokumenten etabliert:</s></p>
+<p><s><mark name="pattern-desc-Remote Cursor" /><break strength="medium" />Remote Cursor: Zeige die Bewegungen des Eingabefokus</s></p>
+<p><s>(Maus-Cursor und Text-Cursor) entfernt arbeitender Nutzender an.<break strength="medium" /></s></p>
+<p><s><mark name="pattern-desc-Remote Selection" /><break strength="medium" />Remote Selection: Visualisiere nicht nur die Auswahl der oder</s></p>
+<p><s>des lokalen Nutzenden sondern zeige auch die Auswahlbereiche von Nutzenden an,</s></p>
+<p><s>die ebenfalls im gemeinsamen Arbeitsbereich oder Editor aktiv sind.<break strength="medium" /></s></p>
+<p><s><mark name="pattern-desc-Remote Field of Vision" /><break strength="medium" />Remote Field of Vision: Hebe die aktuellen Teile des</s></p>
+<p><s>Arbeitsbereichs oder die Dokumente hervor, die aktuell von kooperierenden</s></p>
+<p><s>Nutzenden betrachtet werden.<break strength="medium" /></s></p>
+<p><s><mark name="pattern-desc-Telepointer" /><break strength="medium" />Telepointer: Statte die Benutzenden mit einem</s></p>
+<p><s>virtuellen Zeigestock aus, womit sie begleitend zu einem</s></p>
+<p><s>Embedded Chat<break strength="medium" /> auf bestimmte Artefakte oder Teile davon</s></p>
+<p><s>zeigen können.</s></p>
+<p><s>Technisch basieren die ersten drei Muster auf der gleichen Grundlage:</s></p>
+<p><s>Interagiert der Nutzer oder die Nutzerin mit der Maus oder der Tastatur, so wird</s></p>
+<p><s>im Controller die aktuelle Position der Maus, des Cursors, der Textauswahl oder</s></p>
+<p><s>des Views des Arbeitsbereichs erfasst und an die anderen Mitglieder des</s></p>
+<p><s>Arbeitsbereichs als  Positions-Ereignis kommuniziert.</s>
+<s>Dort kann</s></p>
+<p><s>diese Information visualisiert werden.</s>
+<s>Der grundsätzliche Ablauf ist nach wie vor derselbe wie wir ihn zu Beginn der Kurseinheit skizziert haben.</s></p>
+<p><s>Der <mark name="pattern-Telepointer" /><break strength="medium" />Telepointer<break strength="medium" /> unterscheidet sich von den ersten drei Mustern dadurch dass er nicht an ein Eingabegerät gebunden ist.</s>
+<s>Stattdessen ist er ein</s></p>
+<p><s>eigenständiges Kontrollelement, das von den Nutzenden aktiviert und bewegt</s></p>
+<p><s>werden kann.</s>
+<s>Die Erfassung der Position basiert in diesem Fall nicht auf einer Beobachtung der nutzenden Person, sondern auf einem aktiven Setzen der Position durch die benutzende Person.</s></p>
+<p><s>Die Visualisierung der oben genannten Muster stößt an ihre Grenzen, wenn die Bereiche einer Selektion oder</s></p>
+<p><s>die Punkte der <mark name="pattern-Telecursor" /><break strength="medium" />Telecursor<break strength="medium" /> oder <mark name="pattern-Telepointer" /><break strength="medium" />Telepointer<break strength="medium" /> sich</s></p>
+<p><s>stark überlappen.</s>
+<s>Wird eine Selektion hier lediglich durch einen Texthintergrund</s></p>
+<p><s>in der Farbe des Benutzers oder der Benutzerin ausgedrückt, so lässt sich</s></p>
+<p><s>die Farbe bei überlappenden Selektionen nicht mehr zuordnen. Ähnlich verhält es</s></p>
+<p><s>sich mit Cursors: Wenn beide nutzende Personen den Cursor an die gleiche Stelle</s></p>
+<p><s>bewegen, muss sichergestellt werden, dass der eigene Cursor immer sichtbar</s></p>
+<p><s>bleibt (und evtl.</s>
+<s>den fremden Cursor überdeckt).</s></p>
+<p><s>Eine weitere Herausforderung besteht in der Ermittlung einer guten</s></p>
+<p><s>Übertragungsrate für Positions-Ereignisse.</s>
+<s>Während die Tippgeschwindigkeit</s></p>
+<p><s>deutlich unter der technisch handhabbaren Ereignisfrequenz liegt, kann die</s></p>
+<p><s>Bewegung der Maus zu einer sehr großen Menge an Events beim Server und so zu</s></p>
+<p><s>einem Engpass führen.</s>
+<s>Deshalb bietet es sich an, Maus-Cursor-Bewegungen nur zu</s></p>
+<p><s>übertragen, wenn der Cursor einen Mindestabstand zur vorherigen Position</s></p>
+<p><s>überschritten hat.</s>
+<s>Weitere Probleme, die bei der Übermittlung von</s></p>
+<p><s>kontinuierlichen Awareness-Informationen auftreten, beruhen auf einem</s></p>
+<p><s>ungleichmäßigen Datenstrom vom Sender zu den Empfänger-Anwendungen.</s>
+<s>So kann es</s></p>
+<p><s>passieren, dass die Informationen über die neue Cursorposition nicht gleichmäßig</s></p>
+<p><s>den ausführenden Computer verlassen können und dass sie (z.B. wegen</s></p>
+<p><s>Verzögerungen im Netzwerk) den darstellenden Rechner nicht gleichmäßig</s></p>
+<p><s>erreichen.</s>
+<s>Hier kann die Wiedergabe entweder generell verzögert werden oder bei</s></p>
+<p><s>einem Ausbleiben der Aktualisierung ein Wert interpoliert werden</s></p>
+<p><s><mark name="citation-Long2005" />(Long und Horsch, <say-as interpret-as="date" format="y">2005</say-as>).</s></p>
+<p><s><mark name="example"/><break strength="strong" /><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>Für Own-Cloud existiert eine Komponente, die das gleichzeitige gemeinsame</s></p>
+<p><s>Bearbeiten von Texten unterstützt.</s>
+<s>Nutzerinnen und Nutzer treffen sich bei</s></p>
+<p><s>einem Dokument, indem sie es gleichzeitig öffnen.</s>
+<s>Die Web-basierte</s></p>
+<p><s>Bearbeitungskomponente überträgt alle Änderungen am Text an den OwnCloud-Server,</s></p>
+<p><s>von wo aus sie an die aktiven Clients der entfernten Nutzenden weitergeleitet</s></p>
+<p><s>werden.</s></p>
+<p><s>Einige der Nachrichten beschreiben Bewegungen des Textcursors oder die</s></p>
+<p><s>Erweiterung einer Textauswahl.</s>
+<s>Aufgrund dieser Informationen kann die entfernte</s></p>
+<p><s>Client-Komponente rekonstruieren, welche Textteile die jeweiligen Benutzerinnen</s></p>
+<p><s>und Benutzer selektiert haben.</s>
+<s>In  sind zwei</s></p>
+<p><s>Cursor zu sehen (niemand hat einen Text selektiert).</s>
+<s>Die Cursor tragen in dem</s></p>
+<p><s>Beispiel jeweils die Farbe des Nutzers. </s></p>
+<p><s> </s></p>
+
+
+<p><s> </s></p>
+<p><s>  </s></p>
+<p><s>  <mark name="image-fig/Shared_Editing.png" /></s></p>
+<p><s>  </s></p>
+<p><s>   </s></p>
+<p><s>  <mark name="imagecaption" />Synchrone Bearbeitung eines Textdokuments in OwnCloud.</s></p>
+<p><s><mark name"textlabel-ownCloudSharedEditor" /></s></p>
+
+
+<p><s>Informationen über die Identität der anwesenden Gruppenmitglieder finden sich in</s></p>
+<p><s>der <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> am rechten Rand von .</s></p>
+<p><s> zeigt darüber hinaus noch Informationen über die</s></p>
+<p><s>Autorenschaft der jeweiligen Absätze.</s>
+<s>In der schwarzen Sprechblase werden alle</s></p>
+<p><s>Personen, die in einem Absatz aktiv waren, zusammen mit dem Zeitpunkt ihrer</s></p>
+<p><s>Aktion benannt.</s>
+<s>Die Sprechblase wird durch einen Klick auf den farbigen linken</s></p>
+<p><s>Balken sichtbar.</s>
+<s>Diese Visualisierung ist ein Beispiel dafür, wie das synchrone</s></p>
+<p><s>Konzept des <mark name="pattern-Activity Indicators" /><break strength="medium" />Activity Indicators<break strength="medium" /> mit asynchronen Formen der</s></p>
+<p><s>Awareness verbunden werden können. </s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Die bisher betrachteten Muster thematisieren insbesondere Aktivitäten der</s></p>
+<p><s>Nutzenden auf technischer Ebene.</s>
+<s>Mit Eingabegeräten nehmen die Nutzenden</s></p>
+<p><s>Veränderungen am Programmzustand wahr indem sie Werte eingeben oder Cursor</s></p>
+<p><s>bewegen.</s>
+<s>All dies sind Micro-Aktivitäten, die zusammengenommen größere</s></p>
+<p><s>semantische Einheiten bilden können.</s>
+<s>Solche Einheiten zu erkennen stellt nach</s></p>
+<p><s>wie vor eine technische Herausforderung dar, denn die einzelnen Aktionen der</s></p>
+<p><s>Nutzenden müssen im Kontext der Nutzenden interpretiert werden.</s>
+<s>Hierfür muss der</s></p>
+<p><s>Kontext verstanden werden. </s></p>
+<p><s>Statt zum Beispiel eine Folge von Mausbewegungen darzustellen ist es in einigen Situationen </s></p>
+<p><s>sinnvoller, den Grund für die Mausbewegungen zu kommunizieren, bspw. dass die</s></p>
+<p><s>aktive Person den anderen Gruppenmitgliedern eine Stelle im Text zeigen möchte,</s></p>
+<p><s>um auf eine Unstimmigkeit im Dokument hinzuweisen.</s>
+<s>Hierfür bewegt sie ihre Maus</s></p>
+<p><s>über den Text und umkreist die strittigen Wörter.</s>
+<s>Im Idealfall könnte ein</s></p>
+<p><s>Computersystem solche Muster der Interaktion erkennen und zu sinnvollen</s></p>
+<p><s>semantischen Einheiten zusammenfassen.</s>
+<s>Hier steht die Forschung allerdings noch</s></p>
+<p><s>am Anfang.</s>
+<s>Ein immer wieder genutztes Stichwort in diesem Bereich ist das des</s></p>
+<p><s>kontextsensitiven kooperativen Systems.</s>
+<s>Dies beschreibt ein</s></p>
+<p><s>kooperatives System, in dem der Kontext der nutzenden Personen durch Sensoren</s></p>
+<p><s>wahrgenommen und im kooperativen System reflektiert wird (bspw. durch</s></p>
+<p><s>automatische Anpassungen des Systems an den Nutzungskontext).</s></p>
+<p><s><mark name="citation-rittenbruch2002" />Rittenbruch (<say-as interpret-as="date" format="y">2002</say-as>) schlug zur Lösung dieser Herausforderungen einen</s></p>
+<p><s>Awareness-Ansatz vor, der die Aktivitäten der Nutzenden im Nutzungskontext</s></p>
+<p><s>interpretiert und so zu einem gemeinsamen Verständnis der Intention der</s></p>
+<p><s>Nutzenden führt.</s>
+<s>Durch die Kontextualisierung erhalten die einzelnen</s></p>
+<p><s>Informationen eine Semantik auf der Ebene des Arbeitsprozesses, was die</s></p>
+<p><s>Interpretation der Aktion stark vereinfacht. </s></p>
+<p><s>Ein Muster aus dem Bereich der synchronen Group Awareness sollten Sie sich vor</s></p>
+<p><s>diesem Hintergrund  noch anschauen:</s></p>
+<p><s><mark name="pattern-desc-Activity Indicator" /><break strength="medium" />Activity Indicator: Signalisiere wenn ein entfernt</s></p>
+<p><s>arbeitende Benutzende eine Aktion durchführt.<break strength="medium" /></s></p>
+<p><s><mark name="subsection-Gruppenwahrnehmung bei asynchroner Interaktion"/><break strength="strong" /><prosody rate="slow" pitch="low">Gruppenwahrnehmung bei asynchroner Interaktion</prosody><break strength="strong" /></s></p>
+<p><s>Neben dem synchronen Gruppenbewusstsein sind in vielen Systemen auch</s></p>
+<p><s>Mechanismen für ein asynchrones Gruppenbewusstsein vorhanden.</s>
+<s>Das Ziel besteht darin, vergangene Aktivitäten so zu vergegenwärtigen, dass sie im Kontext der wahrnehmenden Nutzenden zu einem sinnvollen Gesamtbild der Kooperation vermitteln</s></p>
+<p><s><mark name="citation-Tam2004" />Tam und Greenberg (<say-as interpret-as="date" format="y">2004</say-as>) erweitern die Fragen aus <mark name"tableref-workspaceawarenesstable" />Tabelle <say-as interpret-as="ordinal">4</say-as> auf den Kontext der asynchronen Awareness.</s>
+<s>In Folge müssen die Fragen nicht nur in Bezug auf den gegenwärtigen Zeitpunkt, sondern auch bezüglich der Vergangenheit beantwortet werden.</s>
+<s>Dafür gibt es zwei Gründe: Erstens sollte man den Nutzenden ein besseres Verständnis für den Verlauf der individuellen Aktivitäten und Gruppenaktivitäten geben.</s>
+<s>Zweitens sind die Nutzenden nicht kontinuierlich aktiv.</s></p>
+<p><s><mark name"figurelabel-async-awareness" /><mark name"figurecaption-Die Rolle der Awareness in der asynchronen Kollaboration Schümmer und Lukosch (2007)" /></s></p>
+<p><s>Der letztere Umstand ist in <mark name"figureref-async-awareness" />Abbildung <say-as interpret-as="ordinal">17</say-as> dargestellt.</s>
+<s>Die Nutzenden interagieren in einer gemeinsamen Arbeitsumgebung (hellgrau), verlassen jedoch von Zeit zu Zeit ihren Arbeitsplatz.</s>
+<s>Sie verlassen möglicherweise auch die Grenzen der Gemeinschaft, wenn Sie zum Beispiel für längere Zeit in den Urlaub fahren oder aus gesundheitlichen gründen verhindert sind, so dass Sie der virtuellen Gemeinschaft fernbleiben.</s>
+<s>Die in diesem Abschnitt folgenden Muster helfen in vergleichbaren Situationen, indem beispielsweise längere Abwesenheiten bekanntgeben werden und bei der Rückkehr die Historie der Gruppenaktivitäten nachvollzogen werden kann.</s></p>
+<p><s>Einen einfachen Einstieg in asynchrone Awareness-Muster bilden regelmäßige</s></p>
+<p><s>Berichte über Aktivitäten per e-Mail:</s></p>
+<p><s><mark name="pattern-desc-Periodic Report" /><break strength="medium" />Periodic Report: Verschicke periodische Nachrichten,</s></p>
+<p><s>in denen die Aktionen der Benutzenden im Kooperationsraum</s></p>
+<p><s>zusammengefasst sind.<break strength="medium" /></s></p>
+<p><s><mark name="example"/><break strength="strong" /><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>OwnCloud kann <mark name="pattern-Periodic Reports" /><break strength="medium" />Periodic Reports<break strength="medium" /> per e-Mail verschicken.</s>
+<s>Hierzu wird</s></p>
+<p><s>ein Report-Task in der Menge der regelmäßigen Aufgaben registriert, die mittels</s></p>
+<p><s>eines Cron-Jobs angestoßen werden können. </s></p>
+<p><s>Der Report-Task liest aus dem <mark name="pattern-Activity Log" /><break strength="medium" />Activity Log<break strength="medium" /> alle Aufzeichnungen</s></p>
+<p><s>über Aktivitäten, die für die zu benachrichtigende Person relevant sind und fügt</s></p>
+<p><s>diese in eine e-Mail ein.</s>
+<s>Nach dem erfolgreichen Versand des Reports werden die</s></p>
+<p><s>Aktivitäten für diese Nutzerin oder diesen Nutzer gelöscht.</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Werden keine Reports genutzt oder werden veränderte Artefakte nur</s></p>
+<p><s>selten betrachtet, so bietet sich ein <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" /></s></p>
+<p><s>an.</s></p>
+<p><s><mark name="pattern-desc-Change Indicator" /><break strength="medium" />Change Indicator: Hebe Artefakte hervor, die von</s></p>
+<p><s>anderen Benutzenden geändert wurden.<break strength="medium" /></s></p>
+<p><s>Beim Change-Indicator ist die Anzeigedauer eine der zentralen Herausforderungen:</s></p>
+<p><s>Wie lange soll ein Artefakt als verändertes Artefakt visualisiert werden?</s>
+<s>Nehmen</s></p>
+<p><s>wir relative Gleichzeitigkeit an, so wäre der <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" /> zu</s></p>
+<p><s>entfernen, sobald das geänderte Artefakt wahrgenommen wurde.</s>
+<s>Aber es kann auch</s></p>
+<p><s>eine längere Vergegenwärtigung der Änderung nötig sein. </s></p>
+<p><s><mark name="example"/><break strength="strong" /><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>Ein einfaches Beispiel für einen <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" /> ist die</s></p>
+<p><s>Hervorhebung neuer Nachrichten in einem e-Mail-Client.</s>
+<s>Betrachten Sie hierzu die</s></p>
+<p><s>folgende Situation in Ihrem Arbeitsalltag: Sie starten morgens Ihren</s></p>
+<p><s>e-Mail-Client und lesen alle Nachrichten in Ihrem Posteingang.</s>
+<s>Danach widmen Sie</s></p>
+<p><s>sich für zwei Stunden einem Buch und schauen nicht auf den Bildschirm.</s>
+<s>In dieser</s></p>
+<p><s>Zeit sind drei Nachrichten angekommen, eine davon wurde auf dem Transportweg</s></p>
+<p><s>durch ein Netzwerkproblem verzögert - der Absender hatte die Nachricht schon</s></p>
+<p><s>gestern geschickt.</s></p>
+<p><s>Ohne einen <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" /> müssten Sie nach der Arbeit mit dem</s></p>
+<p><s>Buch wieder den gesamten Posteingang durchgehen.</s>
+<s>Ob Ihnen dabei die verzögerte</s></p>
+<p><s>Nachricht auffallen würde, ist nicht sicher.</s>
+<s>Neue ungelesene Nachrichten werden</s></p>
+<p><s>deshalb hervorgehoben, bspw. indem sie in der Nachrichtenliste im Fettdruck</s></p>
+<p><s>erscheinen.</s>
+<s>Aber wann können Nachrichten als wahrgenommen angesehen werden?</s>
+In</p>
+<p><s>einigen Mail-Systemen geschieht dies immer, wenn der Nachrichteninhalt angezeigt</s></p>
+<p><s>wurde, andre Systeme fordern eine längere Betrachtung des Inhalts (und nehmen</s></p>
+<p><s>damit an, dass die Nachricht nun vergegenwärtigt wurde).</s>
+<s>Wiederum andere Systeme</s></p>
+<p><s>entfernen den <mark name="pattern-Change Indicator" /><break strength="medium" />Change Indicator<break strength="medium" /> erst, wenn die empfangende Person</s></p>
+<p><s>die Nachricht explizit als gelesen markiert.</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Abschließend sollen noch zwei weitere Muster nicht unerwähnt</s></p>
+<p><s>bleiben, die aber vor allem dann eine Rolle spielen, wenn die</s></p>
+<p><s>Benutzenden primär asynchron miteinander arbeiten.</s></p>
+<p><s><mark name="pattern-desc-Aliveness Indicator" /><break strength="medium" />Aliveness Indicator: Gib Benutzenden virtuelle</s></p>
+<p><s>Objekte, für die sie Verantwortung übernehmen können.</s>
+<s>Visualisiere</s></p>
+<p><s>diese Objekte in einer aktiven und lebendigen Form, sofern sich der dafür</s></p>
+<p><s>zuständige</s></p>
+<p><s>Benutzer oder die zuständige Benutzerin kürzlich um das Objekt gekümmert hat.<break strength="medium" /></s></p>
+<p><s><mark name="pattern-desc-Away Message" /><break strength="medium" />Away Message: Beantworte Anfragen an eine Person</s></p>
+<p><s>mit einer automatischen Nachricht, sofern die Person gerade</s></p>
+<p><s>abwesend ist.</s>
+<s>Füge der Nachricht Informationen über die erwartete</s></p>
+<p><s>Rückkehr und eine mögliche Vertretung bei.<break strength="medium" /></s></p>
+<p><s>Damit haben Sie einige grundlegende Muster zur Vermittlung von</s></p>
+<p><s>Gruppenbewusstsein kennengelernt.</s>
+<s>Diese Liste ist ebenso wenig vollständig wie</s></p>
+<p><s>die Sammlung der Muster im Basistext.</s>
+<s>Bevor wir uns mit einigen Herausforderungen von Group Awareness auseinandersetzen, gehen wir in einem kurzen Exkurs auf die Aspekte der Implementierung ein.</s></p>
+<p><s><mark name="subsection-Implementierung in Socket.IO"/><break strength="strong" /><prosody rate="slow" pitch="low">Implementierung in Socket.IO</prosody><break strength="strong" /></s></p>
+<p><s>Aus technischer Perspektive müssen Awareness Information möglichst in Echtzeit und bidirektional zwischen den beteiligten Clients kommuniziert werden.</s>
+<s>Auslöser dafür sind Ereignisse, die für andere Gruppenmitglieder relevant sein können.</s>
+<s>Eine Möglichkeit dies technisch zu realisieren bietet Socket.IO.</s>
+<s>Es handelt sich dabei um ein Javascript Framework, welches unabhängig von Plattformen, Geräten und Browsers eingesetzt werden kann.</s>
+<s>Dabei baut der Client zunächst eine XHR oder JSONP Verbindung mit dem Server auf und versucht dann ein Upgrade auf eine WebSocket Verbindung.</s>
+<s>Seit HTML5 werden WebSockets nativ im Browser unterstützt und ermöglichen somit eine bidirektionale Verbindung. </s></p>
+<p><s><mark name="listing" /></s></p>
+<p><s><mark name="listing" /></s></p>
+<p><s>Die Code-Beispiele  und  demonstrieren wie mittels Socket.IO eine <mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> umgesetzt werden kann, so dass die gleichzeitig an einer Session teilnehmenden Nutzer dargestellt werden.</s>
+<s>Den Code können Sie sich auch herunterladen und lokal ausführen<mark name="footnote" />. </s></p>
+<p><s><mark name="section-Kritische Betrachtung der Awareness"/><break strength="strong" /><prosody rate="slow" pitch="low">Kritische Betrachtung der Awareness</prosody><break strength="strong" /></s></p>
+<p><s><mark name="subsection-Awareness und virtuelle Präsenz"/><break strength="strong" /><prosody rate="slow" pitch="low">Awareness und virtuelle Präsenz</prosody><break strength="strong" /></s></p>
+<p><s>Bei den bisherigen Betrachtungen zur Awareness haben wir die virtuelle Präsenz des Users als gegeben hingenommen und uns auf die Präsenz und Aktivität der übrigen Gruppenmitglieder konzentriert.</s>
+<s>Die Frage nach der eignen Präsenz ist jedoch eine sehr entscheidende, wenn Sie darüber hinausgehende Schlüsse über die Präsenz ihrerer Kooperationspartner ziehen möchten.</s>
+<s>Ihre Präsenz in einem kooperativen System steht also immer in Relation zur Präsenz der anderen.</s>
+<s>Besonders offensichtlich wird das im Zusammenhang mit Anwendungen im Bereich Virtual Reality (VR), Augmented Reality (AR) und Mixed Reality (XR).</s>
+<s>Die Gestaltung dieser Systeme ist darauf ausgerichtet eine Illusion zu erzeugen, dass eine vermittelte Erlebnis nicht vermittelt, sondern wahrgenommen wird.</s>
+<s>Auch bei der Gestaltung kooperativer Systeme ist man versucht, diese Illusion aufrechtzuerhalten.</s>
+<s>Dies gelingt zum einen, wenn das Medium bei der Interaktion mit anderen Menschen als sozial, warm, einfühlsam, persönlich oder intim wahrgenommen wird.</s>
+<s>Zum anderen entsteht der Eindruck von Präsenz, wenn das Medium eine nahtlose und genaue Repräsenation von Objekten, Ereignissen und Menschen erzeugen kann, die real aussieht und sich real anhört oder anfühlt. <mark name="citation-Lombard2006" />Lombard und Ditton (<say-as interpret-as="date" format="y">2006</say-as>) beschreiben diesbezüglich noch weitere Auffassung von Präsenz. </s></p>
+<p><s>Michel Reilhac vergleicht die Wirksamkeit der Präsenz mit der vierten Wand einer Theaterbühne.</s>
+<s>Für die Schauspieler existiert eine imaginäre Wand zum Publikum, die sie nicht durchschreiten können und die sie daran hindert, mit dem Publikum zu interagieren.</s>
+<s>Sie fragen sich jetzt vielleicht, wer in einem kooperativen System  die Schaulspieler und wer das Publikum repräsentiert.</s>
+<s>Das Pendant zu den Schauspielern sind die jenigen Personen, mit denen Nutzende unmittelbar, etwa in einer Gruppe, zusammenarbeiten.</s>
+<s>Zum Publikum gehören jene Mitglieder der Community, welche die Zusammenarbeit der auf der Bühne agierenden Gruppe von außen verfolgen (oder beeinflussen) können.</s>
+<s>Um den Grad der Präsenz zu ermitteln stellt Reilhac vier einfache Fragen: </s></p>
+<p><s><break strength="medium" /><mark name="item-1" />sep0em</s></p>
+<p><s><mark name="item-0" /> Besitze ich einen Körper? </s></p>
+<p><s><mark name="item-1" /> Bin ich sichtbar? </s></p>
+<p><s><mark name="item-0" /> Kann man mich spüren? </s></p>
+<p><s><mark name="item-1" /> Kann ich interagieren?</s></p>
+
+<p><s>Aus diesen Fragen werden in <mark name"tableref-tab:presence" />Tabelle <say-as interpret-as="ordinal">5</say-as> zehn verschiedene Perspektiven der Präsenz entwickelt.</s>
+<s>Die ersten sechs Perspektiven beschreiben die Innensicht einer Person, die im Geschehen auf der Bühne mehr oder weniger eingebunden ist.</s>
+<s>Die Perspektiven 7. bis 10. gehen auf die Außensicht ein, bei der man von außen das Geschehen  auf der Bühne beobachtet oder darin eingreift.  </s></p>
+<p><s>object Promise</s></p>
+<p><s><mark name="discussion"/><break strength="strong" /><prosody rate="slow" pitch="low">Diskussion</prosody><break strength="strong" /></s></p>
+<p><s>Versuchen Sie für jede der zehn Perspektiven eine exemplarische Situation in einem konkreten kooperativen System zu finden.</s>
+<s>Erläutern Sie die Auswirkungen der jeweiligen Perspektive auf die von anderen Kooperationspartnern im System wahrgenommene Präsenz. </s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Das Modell in <mark name"tableref-tab:presence" />Tabelle <say-as interpret-as="ordinal">5</say-as> kann uns helfen, den Grad der Präsenz und somit auch den Grad der Kollaboration in einem System zu hinterfragen.</s>
+<s>Es macht einen großen Unterschied, ob ich als Active character unmittelbar und leibhaftig am Kollaborationsprozess teilhabe, oder ob ich als Spirit mangels körperlicher Repräsentation meinem Gegenüber lediglich das Gefühl geben kann, anwesend zu sein. </s></p>
+<p><s>Zusammenfassend können wir festhalten, dass die Awareness sehr stark von der Form der virtuellen Präsenz abhängt.</s>
+<s>Das Vermögen eines Systems, die Nutzenden in die virtuelle Umgebungen eintauchen zu lassen ist gegenwärtig noch nicht sehr ausgeprägt. </s></p>
+
+
+<p><s><mark name="subsection-Grenzen der Awareness in kooperativen Systemen"/><break strength="strong" /><prosody rate="slow" pitch="low">Grenzen der Awareness in kooperativen Systemen</prosody><break strength="strong" /></s></p>
+<p><s>Treten wir nun noch einmal einen Schritt zurück und lassen die Form der virtuellen Präsenz außer Acht, um unseren Blick auf praktische Probleme bei der Realisierung einer umfassenden Awareness-Unterstützung zu lenken.</s></p>
+<p><s>Im letzten Abschnitt haben Sie dazu einige Entwurfsmuster kennengelernt, mit deren Hilfe ein Bewußtsein für die am Kooperationsprozess beteiligten Personen und deren Aktivitäten hergestellt werden kann.</s>
+<s>Der Kontext der zwischenmenschlichen Interaktion wird dabei jedoch nur zu einem Bruchteil berücksichtigt.</s>
+<s>Deutlich wird dies, wenn Sie beispielsweise ein persönliches Gespräch unter vier Augen als Vergleich heranziehen.</s>
+<s>In der physischen Welt sind unsere Interaktionen durch die Körperlichkeit geprägt.</s>
+<s>Vieles von dem, was wir kommunizieren besteht nicht aus Worten oder Text, sondern ist durch Gesten, Bewegungen und Mimik bestimmt.</s>
+<s>Noch bevor wir ein Wort aussprechen, sagt unsere Erscheinung viel über uns aus: das Gesicht offenbart das Geschlecht, das Alter und den kulturellen Hintergrund, während die Kleidung und Haartracht etwas über den ökonomischen Status und die soziale Zugehörigkeit verraten <mark name="citation-Donath2014" />(Donath, <say-as interpret-as="date" format="y">2014</say-as>)  }}.</s>
+<s>Unsere Bewegung offenbart unseren Habitus und unsere körperliche Fitness.</s>
+<s>Gesichtsausdrücke und Mimik spiegeln unsere emotionale Verfassung und unsere Reaktion auf das, was wir gerade sehen oder hören.</s>
+<s>All diese Informationen beziehen sich auf den persönlichen Kontext eines Gegenüber.</s>
+<s>Weitere Kontextinformationen beinhaltet der physische Arbeitsbereich inklusive Werkzeuge und Artefakte sowie der umgebende Raum und die Lokalität (siehe Kurseinheit 7). </s></p>
+<p><s>Ein wesentliche Herausforderung betrifft die verbreitete Annahme, dass die Kooperationspartner meine Präsenz wahrnehmen, da ich ihre Anwesenheit ja auch wahrgenommen habe.</s>
+<s>Dies muss nicht zwingend der Fall sein, wenn die Person am anderen Ende der Leitung zum Beispiel seine Aufmerksamkeit vom geteilten Kooperationsraum abgewendet hat und sich mit anderen Dingen beschäftigt.</s>
+<s>Bezog auf die Gruppe ist somit unklar, wann sich alle beteiligten Personen gegenseitig der Präsenz aller anderen bewußt sind und man von einer We-Awareness sprechen kann <mark name="citation-Greenberg2016" />(Greenberg und Gutwin, <say-as interpret-as="date" format="y">2016</say-as>).</s></p>
+<p><s>Deutlich wird dies in der synchronen Sprachkommunikation per Telefon, Videotelefonie bzw. Videokonferenzen, wenn sich die Beteiligten fragen, ob sie jetzt an der Reihe sind und etwas sagen können, ohne einem anderen ins Wort zu fallen:</s></p>
+<p><s><break strength="medium" />Zitat<break strength="medium" /></s></p>
+<p><s>Speech is evanescent, and so Alan must try to speak only when he thinks Barbara is attending to, hearing, and trying to understand what he is saying, and she must guide him by giving him evidence that she is doing just this.</s>
+<s>Accomplishing this  requires the two of them to keep track of their common ground and its moment-by-moment changes.<mark name="citation-Clark1991" />(Clark und Brennan, <say-as interpret-as="date" format="y">1991</say-as>)</s></p>
+<p><s><break strength="medium" />Zitatende<break strength="medium" /></s></p>
+<p><s>Das Beispiel verdeutlicht den Effekt, der auch dann auftreten würde, wenn Personen im Gespräch zu weit voneinander entfernt stehen.</s>
+<s>Dies ist ein Grund dafür, warum man während der face to face Kollaboration die Distanz zu einander verringert.</s>
+<s>Je näher man zusammenrückt, desto mehr Details werden von den anderen Personen (Körpersprache, Gesichtsausdrücke, Blickrichtung, etc) sowie von ihren Werkzeugen und Artefakten (z.B. Geräusche) erfahrbar <mark name="citation-Greenberg2016" />(Greenberg und Gutwin, <say-as interpret-as="date" format="y">2016</say-as>).</s>
+<s>Die Nähe ist deshalb ein Beispiel dafür, wie der Umfang und der Detailgehalt von Awareness Informationen vom Modus der Kooperation abhängt.</s>
+<s>In vielen kooperativen Systemen wird jedoch nicht die Nähe, sondern die jeweilige Aktivität oder das genutzte Werkzeug als Entscheidungskriterium für Awareness Funktionen herangezogen.</s></p>
+<p><s>Problematisch ist auch die Annahme, die Diversität der Nutzer auf wenige oder gar nur einen Typus von Anwender reduzieren zu können und somit unterschiedliche Persönlichkeitsmerkmale, Vorlieben und situationsbedingter Arbeitsweisen zu vereinheitlichen.</s>
+<s>Wie bereits erwähnt, fehlt es bislang an kontextsensitiven adaptiven Systemen, die eine weitreichende Personalisierung der Awareness Informationen ermöglichen <mark name="citation-Jimenez2013" />(Montané-Jiménez und Kollegen, <say-as interpret-as="date" format="y">2013</say-as>).</s></p>
+<p><s>Aus Sicht eines Designers kooperativer Systems ergeben sich vor diesem Hintergrund noch weitere Fragen hinsichtlich der Relevanz, Aufzeichnung, Übersetzung, Übertragung und Darstellung von Awareness Informationen <mark name="citation-Greenberg2016,Donath2014" />undefined: </s></p>
+
+<p><s><mark name="item-0" />Relevanz Welche Art von Awareness Informationen sind essentiell für die Kooperation und müssen deshalb im System berücksichtigt werden?</s></p>
+<p><s>Welche Informationen sieht der Nutzer als Teil seiner Privatsphäre an und möchte sie deshalb nicht übertragen?</s></p>
+<p><s>Können Anwender beeinflussen, welche Informationen preisgegeben werden?</s></p>
+<p><s>Welche Informationen kann man dem Nutzern vorenthalten?</s></p>
+<p><s><mark name="item-1" />Aufzeichnung Wie lassen sich diese Awareness Informationen aufzeichnen?</s></p>
+<p><s>In wie weit wird mein Bewegungsspielraum durch die Aufzeichnung eingeschränkt?</s></p>
+<p><s>Welche Information gehen beim Aufzeichnen verloren?</s></p>
+<p><s><mark name="item-0" />Übersetzung Wie können die aufgezeichneten Informationen in eine digitale Form übersetzt, umgewandelt oder kodiert werden?</s>
+<s>Wie verändern sich die Informationen durch diesen Prozess?</s></p>
+<p><s><mark name="item-1" />Übertragung Wie sollen diese Informationen übertragen werden und welche Netzwerkeffekte (z.B. Verzögerungen, Anforderungen an die Bandbreite) beeinträchtigen die zeitnahe Übertragung?</s></p>
+<p><s><mark name="item-0" />Darstellung Wie können die Awareness Informationen im System so dargestellt werden, sodass sie möglichst reichhaltige und genaue Interaktionen ermöglichen?</s></p>
+
+<p><s><mark name="discussion"/><break strength="strong" /><prosody rate="slow" pitch="low">Diskussion</prosody><break strength="strong" /></s></p>
+<p><s>Die Studierenden im Fachpraktikum kooperative System hatten im Wintersemester 2017/18 die Aufgabe ein kooperatives Einkaufserlebnis mit Hilfe einer virtuellen Repräsentation eines Lebensmittelgeschäfts zu realisieren.</s>
+<s>Die Einkaufenden sollten sich im Geschäft frei bewegen, authentische Abbildungen der Regale betrachten und Produkte zum Kauf auswählen können.</s></p>
+<p><s>Versetzen Sie sich in die Situation, mit einer zweiten Person in einem solchen Laden einkaufen zu gehen, ohne dass sie beide sich am selben physischen Ort befinden </s></p>
+<p><s>Überlegen Sie, welche Awarenessinformationen wie aufgezeichnet, kodiert, übertragen und dargestellt werden können, um das Einkaufserlebnis so realitätsnah wie möglich zu gestalten.</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Die Art von Herausforderung und Problemen, wie sie in diesem Teilabschnitt bezüglich einer adäquaten Umsetzung der Group Awareness diskutiert wurden, sind für den Bereich der Mensch-Computer-Interaktion nicht ungewöhnlich. <mark name="citation-Berger2017" />Berger und Kollegen (<say-as interpret-as="date" format="y">2017</say-as>) sprechen in diesem Zusammenhang von <lang xml:lang="en-GB">messy, infinit, or even wicked problems</lang> und spielen damit auf das unüberschaubare und kaum vollständig erschließbaren Facetten der Problemstellung an.</s>
+<s>Es wird hiermit deutlich, dass die Aufzeichnung und Wiedergabe von Aktivitäten für das Verständnis der Vorgänge innerhalb einer Gruppe nicht ausreicht.</s>
+<s>Die Awareness Information bedarf immer einer Deutung und Interpretation durch den Betrachter.</s>
+<s>Deshalb sollen im folgenden Abschnitt die Grundlagen der gegenseitigen Wahrnehmung in kooperativen Systemen aus Sicht der Phänomenologie betrachtet und weitere Design-Implikationen daraus abgeleitet werden.</s></p>
+
+<p><s><mark name="section-Awareness als Deutung des Da-Seins und Mit-Seins"/><break strength="strong" /><prosody rate="slow" pitch="low">Awareness als Deutung des Da-Seins und Mit-Seins</prosody><break strength="strong" /></s></p>
+<p><s>Aus philosophischer Perspektive sind die Ansätze der Phänomenologie für die</s></p>
+<p><s>Forschung im Bereich der Group Awareness ein zentraler Anknüpfungspunkt.</s>
+<s>Die</s></p>
+<p><s>Phänomenologie ist eine Strömung der Philosophie des 20.</s></p>
+<p><s>Jahrhunderts, die sich mit der Frage befasst hat, was Wahrnehmung bedeutet und</s></p>
+<p><s>wie die Phänomene der Welt erkannt und in einen Sinn-Zusammenhang eingeordnet</s></p>
+<p><s>werden können.</s>
+<s>Sie untersucht das Wechselspiel zwischen Wahrnehmung und Deutung</s></p>
+<p><s>und kann gerade deshalb als Rahmen für die Betrachtung von</s></p>
+<p><s>Gruppenwahrnehmungsmechanismen gelten.</s></p>
+<p><s>Der Begriff der Phänomenologie wurde ursprünglich von  Edmund Husserl</s></p>
+<p><s>(1859-1938) geprägt.</s>
+<s>Dieser unterstrich, dass physikalische Messungen der</s></p>
+<p><s>Wirklichkeit zwar Exaktheit nahelegen, jedoch auf Vorurteilen und Erwartungen</s></p>
+<p><s>basieren.</s>
+<s>Wenn ein Apfel vom Baum auf den Boden fällt, dann haben wir die</s></p>
+<p><s>Erwartung, dass dieser sich entsprechend den Gesetzmäßigkeiten der Schwerkraft</s></p>
+<p><s>verhalten wird.</s>
+<s>Damit wird jegliches abweichendes Verhalten unsichtbar.</s>
+<s>Man</s></p>
+<p><s>könnte sagen, dass es sich der Wahrnehmung entzieht. </s></p>
+<p><s>Das Awareness-Modell vom Beginn dieser Kurseinheit (<mark name"figureref-figureActivityLogDiagram" />Abbildung <say-as interpret-as="ordinal">15</say-as>) hat genau dieses Problem: Als Awareness-Information wird nur das wahrgenommen, wofür es einen Sensor gibt.</s>
+<s>Das Sensorium bestimmt die Erwartungshaltung, es bildet das Vorurteil über wichtige zu kommunizierende Aspekte der Kooperation.</s>
+<s>Husserl plädiert deshalb für eine systematische Ausschaltung aller Vorannahmen.</s>
+<s>In der Methode der eidetischen Reduktion sollen wissenschaftliche Theorien, Traditionen, persönliche Relationen zum betrachteten Gegenstand, die nicht wesensrelevanten Eigenschaften des Gegenstands und schließlich auch die Notwendigkeit der Existenz des Gegenstands hinterfragt und bewusst ausgeschaltet werden. </s></p>
+
+<p><s><mark name="discussion"/><break strength="strong" /><prosody rate="slow" pitch="low">Diskussion</prosody><break strength="strong" /></s></p>
+<p><s>Versuchen Sie im Dialog mit Kommilitoninnen oder Kommilitonen eine eidetischen Reduktion.</s>
+<s>Betrachten Sie zum Beispiel einen Tisch und fragen Sie nach den Grundannahmen, die Sie zu diesem Tisch mitbringen.</s>
+<s>Wieso ist der Tisch in Ihrer Wahrnehmung ein Tisch?</s>
+<s>Welche Traditionen verbinden Sie mit dem Tisch?</s>
+<s>Welche Aspekte könnten in der Beschreibung problemlos weg gelassen werden, ohne dass die Tischhaftigkeit des wahrgenommenen Gegenstands verloren ginge?</s>
+<s>Und schließlich: Was wäre, wenn der Tisch als solcher gar nicht existieren würde?</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Die zu Beginn dieser Kurseinheit gegebene Definition des Awareness-Begriffs soll</s></p>
+<p><s>für die nun folgende Betrachtung der Group Awareness den</s></p>
+<p><s>Startpunkt bilden: Ausgehend von dem Begriff der Aktivität sind die Begriffe des</s></p>
+<p><s>Kontextes, des Selbst und der Anderen zu beschreiben.</s>
+<s>Bei der Untersuchung der</s></p>
+<p><s>Begriffe des Selbst und der Anderen können wir auf unsere Analysen aus</s></p>
+<p><s>Kurseinheit 2 zurückgreifen, wo Gedanken über das Wesen der Identität</s></p>
+<p><s>dargestellt und in den Kontext eines sozialen Systems eingeordnet wurden.</s>
+<s>Der</s></p>
+<p><s>Begriff der Aktivität kam ebenfalls bereits zur Sprache, als wir in Kurseinheit</s></p>
+<p><s>4 die Aufgabentypen nach McGrath diskutierten.</s></p>
+<p><s>Allerdings haben wir sowohl den Begriff der Aktivität als auch den Begriff der</s></p>
+<p><s>Identität als gegeben hingenommen (mit allen Vorurteilen), ohne nach den Grundbedingungen dessen zu</s></p>
+<p><s>fragen, was die Wahrnehmung von Identität und Aktivität ausmacht.</s>
+<s>Beim genaueren</s></p>
+<p><s>Hinsehen wird klar werden, dass hier die Frage berührt wird, was es</s></p>
+<p><s>bedeutet, in einem kooperativen System präsent zu sein, und wie diese Präsenz mit</s></p>
+<p><s>der Präsenz der anderen in Beziehung steht.</s>
+<s>Mehr noch, es wird die Frage nach dem</s></p>
+<p><s>zeitlichen Zusammenhang zwischen Präsenz und Raum zu stellen sein.</s></p>
+<p><s>Ein zentraler Text der Philosophie des 20. Jahrhunderts, der sich mit diesen</s></p>
+<p><s>Fragestellungen auseinandersetzt, ist das 1927 erschienene Werk Sein</s></p>
+<p><s>und Zeit des Philosophen Martin Heidegger (1889-1976), im</s></p>
+<p><s>Folgenden als SuZ abgekürzt <mark name="citation-Heidegger1927" />(Heidegger, <say-as interpret-as="date" format="y">1927</say-as>).</s></p>
+<p><s>Ausgehend von einer erkenntnistheoretischen Analyse (was kann ich als Mensch</s></p>
+<p><s>erkennen) entwirft Heidegger ein Modell der menschlichen Existenz als</s></p>
+<p><s>In-der-Welt-Sein (SuZ, S. 53).</s>
+<s>Im Gegensatz zu anderen</s></p>
+<p><s>erkenntnisphilosophischen Ansätzen verfolgt Heidegger in der von Husserl</s></p>
+<p><s>gestifteten Tradition der Phänomenologie eine Analyse aus einer</s></p>
+<p><s>Ersten-Person-Perspektive <mark name="citation-Zahavi2007" />(Zahavi, <say-as interpret-as="date" format="y">2007</say-as>). Kennzeichnend für die</s></p>
+<p><s>Phänomenologie ist  die Auffassung, dass die Welt, wie sie uns erscheint</s></p>
+<p><s> die einzig wirkliche Welt sei. (a.a.O., S. 14f.). </s></p>
+<p><s>Dieser Zusammenhang wird klarer, wenn wir den komplementären Ansatz des </s></p>
+<p><s>Objektivismus betrachten (a.a.O., S. 17).</s>
+<s>Dieser hat das Ziel, den</s></p>
+<p><s>beobachteten Gegenstand Subjekt-übergreifend als wahr zu erkennen und versucht</s></p>
+<p><s>somit von einem konkreten Betrachter oder einer konkreten Betrachterin zu</s></p>
+<p><s>abstrahieren.</s>
+<s>Würden wir eine objektivistische Definition von Group</s></p>
+<p><s>Awareness versuchen, so könnte man sie definieren als die Menge aller</s></p>
+<p><s>stattgefundenen Aktivitäten und der Zusammenhänge zwischen den Aktivitäten.</s>
+<s>Eine</s></p>
+<p><s>Deutung wäre nur dann möglich, wenn diese keine weiteren Faktoren (bspw. Gefühle</s></p>
+<p><s>der Nutzenden) mit einbezieht.</s>
+<s>Deutung ist aber auch hier ein Prozess des</s></p>
+<p><s>Verstehens, der über die messbaren Beobachtungen hinaus geht.</s>
+<s>Group Awareness</s></p>
+<p><s>ist somit weniger eine Frage der Aufzeichnung und Wiedergabe von Aktivitäten als</s></p>
+<p><s>der Prozess des Deutens der Aktivitäten der Anderen im Kontext der eigenen</s></p>
+<p><s>Aktivitäten. </s></p>
+<p><s>Hier hilft die Grundlinie der Phänomenologie, dass jedes Phänomen, jedes</s></p>
+<p><s>Erscheinen eines Gegenstandes, immer ein  (a.a.O., S. 18).</s>
+<s>Damit ist dieser Erkenntnisansatz</s></p>
+<p><s>deutlich näher an der zu Beginn dieser Kurseinheit zitierten Definition der</s></p>
+<p><s>Group Awareness als ein Verstehen von etwas, nämlich den  Aktivitäten</s></p>
+<p><s>anderer, für das betrachtende Subjekt.</s>
+<s>Dieses Verstehen und Deuten soll den</s></p>
+<p><s>Kontext für die eigene Handlung bilden, es geht also über eine rein ontologische</s></p>
+<p><s>Zielsetzung hinaus.</s></p>
+<p><s>Wenn wir deutend tätig werden wollen, müssen wir die Grundlagen des zu deutenden</s></p>
+<p><s>Inhalts in den Blick nehmen.</s>
+<s>Kommen wir also noch einmal auf die Definition der</s></p>
+<p><s>Group Awareness und betrachten die darin benutzten Begriffe, die es zu deuten gilt,</s></p>
+<p><s>diesmal bereits in einer deutschen Übersetzung:</s></p>
+<p><s><break strength="medium" />Zitat<break strength="medium" /></s></p>
+<p><s>Gruppenwahrnehmung ist ein Verstehen der Aktivitäten der</s></p>
+<p><s>Anderen, das den Kontext für ihre eigenen</s></p>
+<p><s>Aktivitäten bildet.</s></p>
+<p><s><break strength="medium" />Zitatende<break strength="medium" /></s></p>
+<p><s>Die Definition geht von einer Person aus (hier im Begriff</s></p>
+<p><s>ihre präsent).</s>
+<s>Diese nutzt das System und ist im gemeinsamen Kontext</s></p>
+<p><s>aktiv.  (SuZ, S. 47).</s>
+<s>Damit begegnet die Person den</s></p>
+<p><s>Anderen grundsätzlich anders, denn die Anderen sind ebenfalls</s></p>
+<p><s>Person und somit Subjekt in einer Begegnung des In-der-Welt-Seins.</s></p>
+<p><s>Phänomenologisch sind sie empfangende Personen der Erscheinung einer Person und</s></p>
+<p><s>gleichzeitig Gegenstand einer anderen Erscheinung für die andere Person. </s></p>
+<p><s>Für die Gestaltung von Gruppenwahrnehmungsmechanismen führt diese</s></p>
+<p><s>Person-Orientierung beim Design zu einer Unterscheidung zwischen Objekten und</s></p>
+<p><s>Personen.</s>
+<s>Auch wenn wir aus technischer Perspektive von Benutzer-Objekten</s></p>
+<p><s>sprechen sollte klar sein, dass diese lediglich Symbole für ein</s></p>
+<p><s>In-der-Welt-seiendes darstellen.</s>
+<s>Das Bild im System oder der textuell repräsentierte Name </s></p>
+<p><s>Max ist eben nicht die Person Max, sondern lediglich ein Symbol.</s>
+<s>Je weniger</s></p>
+<p><s>soziale Bindungen zur durch das Symbol repräsentierten Person vorhanden sind, desto mehr wird das Symbol als abstraktes Symbol verstanden.</s>
+<s>Dass keine direkte Wahrnehmung der Körperlichkeit Person Max möglich ist, verstärkt die Gefahr der Symbolwerdung des Individuums und damit einen Umgang mit dem Individuum, in dem dieses ein Zuhandenes wird.</s>
+<s>Deshalb sollten kooperative Systeme Anknüpfungspunkte an die reale Person herzustellen</s></p>
+<p><s>versuchen.  </s></p>
+<p><s>Das Individuum ist das Subjekt einer Aktivität. Akte werden</s></p>
+<p><s>vollzogen, Person ist Aktvollzieher. (SuZ, S. 48).</s>
+<s>Auch hier können wir wieder</s></p>
+<p><s>Implikationen für das Design erkennen: Wenn das System Aufgaben explizit</s></p>
+<p><s>beschreibt oder Aktivitäten der Nutzenden festhält, so sind diese gerade nicht</s></p>
+<p><s>loszulösen von der den Akt vollziehenden Person.</s>
+<s>Es ist nicht irrelevant,</s></p>
+<p><s>welches Mitglied im kooperativen System eine Aufgabe oder eine Aktion ausgeführt</s></p>
+<p><s>hat oder ausführen wird.</s>
+<s>Wie wir später noch detaillierter zeigen werden,</s></p>
+<p><s>manifestiert sich die Person auch im manipulierten Artefakt.</s>
+<s>Akt und die Akt-vollziehenden Person hinterlassen Spuren im Artefakt. </s></p>
+<p><s>In der Aktivität äußert sich eine Interaktion mit dem Interaktionskontext. Die nächste Welt des</s></p>
+<p><s>alltäglichen Daseins ist die Umwelt (SuZ, S. 66).</s>
+<s>In der Umwelt</s></p>
+<p><s>tritt das In-der-Welt-seiende mit anderem In-Seiendem in Beziehung und vollzieht</s></p>
+<p><s>damit einen Akt.</s>
+<s>Heidegger führt vielfältige Beispiele für das</s></p>
+<p><s>Wesen dieser Inter-akt-ion an: zutunhaben mit etwas, herstellen von etwas,</s></p>
+<p><s>bestellen und pflegen von etwas, verwenden von etwas, aufgeben und in Verlust</s></p>
+<p><s>geraten lassen von etwas, unternehmen, durchsetzen, erkunden, befragen,</s></p>
+<p><s>betrachten, besprechen, bestimmen </s>
+<s>Diese Weisen des In-Seins haben die noch</s></p>
+<p><s>eingehend zu charakterisierende Seinsart des</s></p>
+<p><s> (SuZ, S. 56 f.).</s>
+<s>Viele dieser Begriffe</s></p>
+<p><s>verlangen den direkten Kontakt des Aktvollziehers mit etwas.   </s></p>
+<p><s>Das Seiende, das agierenden Individuen im Besorgen begegnet, bezeichnet</s></p>
+<p><s>Heidegger als Zeug, welches zuhanden ist (SuZ, S. 68).</s>
+<s>Das</s></p>
+<p><s>Zuhandene wird dem Zweck des Besorgens unterworfen. </s></p>
+<p><s>In seiner</s></p>
+<p><s>Analyse des in der Umwelt begegnenden Seienden geht Heidegger vor allem auf den</s></p>
+<p><s>Prozess des Herstellens ein.</s>
+<s>Ein herstellendes</s></p>
+<p><s>Subjekt verwendet etwas (ein Material, etwas Zuhandenes, ein Werkzeug) für</s></p>
+<p><s>etwas, nämlich die Erreichung des Ergebnisses. Übertragen auf das Feld der HCI</s></p>
+<p><s>könnte das zum Beispiel wie folgt aussehen: Eine Autorin nutzt eine Tastatur</s></p>
+<p><s>und ein Textverarbeitungsprogramm um einen Text zu erzeugen.</s>
+<s>Die Tastatur und</s></p>
+<p><s>das Programm sind dabei Werkzeuge (oder besser Schreibzeuge), die ihre</s></p>
+<p><s>Zeughaftigkeit im aktiven Umgang der Personen mit dem Werkzeug zeigen.</s>
+Im</p>
+<p><s>produzierenden Umgang mit dem Text hinterlassen die produzierenden Personen ihre</s></p>
+<p><s>Spuren im Text selbst. </s></p>
+<p><s>Ist das Zuhandene nur medial präsent, so ist davon auszugehen, dass nicht die</s></p>
+<p><s>gleiche Intensität des Besorgens erreicht werden kann, wie dies bei einer</s></p>
+<p><s>direkten Manipulation eines Objekts der Fall wäre.</s>
+<s>Betrachten Sie als Beispiel</s></p>
+<p><s>eine Bildhauerin, die direkt</s></p>
+<p><s>am Stein arbeitet.</s>
+<s>Sie ist im direkten Kontakt zum Werkstück und nimmt dieses</s></p>
+<p><s>sinnlich wahr.</s>
+<s>Vergleichen wir dies mit dem Beispiel eines Sachbearbeiters, der</s></p>
+<p><s>elektronische Formulare bearbeitet, so hat dieser immer nur eine mediale</s></p>
+<p><s>Repräsentation des Formulars vor Augen.</s>
+<s>Mehr noch, es besteht keine direkte</s></p>
+<p><s>Beziehung zu dem Etwas, das vom Formular repräsentiert wird.</s>
+<s>Ein</s></p>
+<p><s>Sachbearbeiter, der nur einen Personalbogen bearbeitet, wird nicht</s></p>
+<p><s>zwingend eine Beziehung zu der darin erfassten Arbeitnehmerin entwickeln (er</s></p>
+<p><s>soll es auch in vielen Fällen nicht).</s>
+<s>In einem kooperativen System kann sich</s></p>
+<p><s>über die gemeinsame Arbeit an einem Artfakt jedoch eine Beziehung zwischen den</s></p>
+<p><s>bearbeitenden Personen entwickeln, vorausgesetzt, sie nehmen nicht nur das</s></p>
+<p><s>Artefakt sondern auch die Aktionen und die Aktvollzieher wahr. </s></p>
+<p><s>Der letzte noch offene Begriff der Definition ist das Verstehen.</s>
+In</p>
+<p><s>SuZ wird das Verstehen im zeitlichen Kontext diskutiert: Ursprünglich</s></p>
+<p><s>existenzial gefaßt, besagt Verstehen: entwerfend-sein zu einem Seinkönnen,</s></p>
+<p><s>worumwillen je das Dasein existiert. (SuZ, S. 336).</s>
+<s>Das Verstehen setzt für</s></p>
+<p><s>Heidegger den schöpferischen Akt des Entwerfens des Seins in Gang. Verstehen</s></p>
+<p><s>ist Seinkönnen. <mark name="citation-luckner2001" />Luckner (<say-as interpret-as="date" format="y">2001</say-as>).</s>
+<s>Genau dies ist in der Definition</s></p>
+<p><s>von Awareness gegeben, wenn es heißt, dass die Aktionen der Gruppe</s></p>
+<p><s>verstanden werden sollen, um das eigene Handeln, das eigene Sein im</s></p>
+<p><s>Gesamtbild der Gruppe darauf abzustimmen.</s>
+<s>Verstehen als Seinkönnen ist jedoch</s></p>
+<p><s>ein durchweg zeitlicher Prozess. </s></p>
+<p><s>Die zeitliche Dimension unterscheidet beim Seinkönnen  zwischen</s></p>
+<p><s>vergangenem, präsentischem und zukünftigem Sein. </s></p>
+<p><s>Dasein definiert sich dabei aus dem Vorlaufen des Seins in seine Zukunft.</s>
+<s>Hier muss sich die Zukunft erst selbst gewinnen , nicht aus einer Gegenwart, sondern aus der uneigentlichen Zukunft (SuZ, S. 337), dem Erwarten. </s></p>
+<p><s>In der Gegenwart</s></p>
+<p><s>wird die Potentialität der Zukunft auf das, was im aktuellen Sein ist reduziert.</s></p>
+<p><s>Der Augenblick als eigentliche Gegenwart meint die</s></p>
+<p><s>entschlossene, aber in der Entschlossenheit gehaltene Entrückung des</s></p>
+<p><s>Daseins an das, was in der Situation an besorgbaren Möglichkeiten, Umständen</s></p>
+<p><s>begegnet. (SuZ, S. 338).</s>
+<s>So wird nur in der Gegenwart das Zuhandene im Sein</s></p>
+<p><s>erfahrbar.</s>
+<s>Phänomenologisch ist damit die Gegenwart der einzige Ort des</s></p>
+<p><s>Verstehens, wenn gleich sich das Verstehen aus dem Seinkönnen, also aus der</s></p>
+<p><s>Zukunft definiert. Im Vorlaufen holt sich das Dasein wieder in</s></p>
+<p><s>das eigenste Seinkönnen vor (SuZ, S. 339). </s></p>
+<p><s>Doch wie verhält es sich mit</s></p>
+<p><s>der Vergangenheit?</s>
+<s>Heidegger ist überzeugt, dass auch die</s></p>
+<p><s>Vergangenheit nur in</s></p>
+<p><s>der Gegenwart erfasst werden kann. Das eigentliche Gewesen-sein nennen</s></p>
+<p><s>wir die Wiederholung. (SuZ, S. 339).</s>
+<s>Vergangenes wird in der</s></p>
+<p><s>Wiederholung gewärtigt.</s>
+<s>Es wird im Vorgang des besorgten Erinnerns zu</s></p>
+<p><s>etwas, was die Person angeht.</s></p>
+<p><s>Wenn wir in einem kooperativen System von Gleichzeitigkeit sprechen, dann geht</s></p>
+<p><s>es um die gleichzeitige Entschlossenheit des Daseins der Gruppenmitglieder.</s></p>
+<p><s>Hierzu muss es eine Verbindung in der Potentialität geben, dem Verstandenen</s></p>
+<p><s>potentiellen Sein der Zukunft.</s>
+<s>Diese Verbindung benötigt das Gewärtigen der</s></p>
+<p><s>Vergangenheit.</s>
+<s>Im Design gilt es eine Balance zwischen Potentialität,</s></p>
+<p><s>Entschlossenheit und Vergegenwärtigung zu schaffen.</s>
+<s>Liegt der Fokus auf dem</s></p>
+<p><s>Gewärtigen des Vergangenen, so bleibt die Potentialität ebenso auf der Strecke</s></p>
+<p><s>wie das entschlossene Handeln im Dasein.</s>
+<s>Liegt der Fokus zu sehr auf der</s></p>
+<p><s>Potentialität, so wird sich kein gemeinsames Verständnis erzielen lassen,</s></p>
+<p><s>da Kommunikation immer Vergegenwärtigung des Gewesenen bedarf (wodurch</s></p>
+<p><s>explizierte Sprache zum Dasein wird).    </s></p>
+<p><s>Eine kurze Randbemerkung sei noch gestattet: Sicher wird Ihnen inzwischen</s></p>
+<p><s>aufgefallen sein, dass die Sprache Heideggers auf den ersten Blick oft</s></p>
+<p><s>irritierend ist.</s>
+<s>Es ging Heidegger bei der Neuschöpfung und der</s></p>
+<p><s>Neuinterpretation von Sprache darum, den Blick für das Eigentliche des Seins zu</s></p>
+<p><s>schärfen, indem traditionelle Verständnisse aus dem Weg geräumt werden.</s>
+<s>So ist</s></p>
+<p><s>es nur konsequent, dass ein neues Verständnis von Sein auch einen neuen Blick</s></p>
+<p><s>auf die Sprache benötigt.</s>
+<s>Versuchen Sie also, die Worte in ihrer Eigenart zu</s></p>
+<p><s>erfassen - auch wenn dies in der gebotenen Kürze nicht immer möglich sein wird</s></p>
+<p><s>und eine Lektüre von SuZ nicht ersetzen kann (was den Umfang dieses Kurses </s></p>
+<p><s>sprengen würde).</s></p>
+<p><s>Auf dieser Grundlage der nun definierten Begriffe wollen wir</s></p>
+<p><s>noch einmal <mark name"tableref-workspaceawarenesstable" />Tabelle <say-as interpret-as="ordinal">4</say-as> betrachten, und die dort genannten Aspekte der</s></p>
+<p><s>wahrzunehmenden Präsenz und Aktivität der Anderen genauer betrachten.</s>
+<s>Dies führt uns zu weiteren zu</s></p>
+<p><s>untersuchenden (englischen) Begriffen als Aspekte der Gruppenwahrnehmung, die</s></p>
+<p><s>wir mit entsprechenden Konzepten aus dem philosophischen Ansatz von SuZ</s></p>
+<p><s>verbinden und entsprechende Implikationen für die Gestaltung kooperativer</s></p>
+<p><s>Systeme ableiten werden: Location (Platz/Ort), Presence (Dasein), </s></p>
+<p><s>Identity (Identität/Person), Embodiment (Körperlichkeit), Authorship (Herstellen) und Intention (Absicht).</s>
+<s>Diese</s></p>
+<p><s>Begriffe werden dazu beitragen, im System die Frage zu beantworten, wer was mit</s></p>
+<p><s>welcher Absicht in der Arbeitsgruppe tut und wie Identität, Absicht und Akt mit</s></p>
+<p><s>dem Fortschritt der Gruppe zusammenhängen. </s></p>
+
+<p><s><mark name="item-1" />Platz / Ort (Location): Dasein auf das Da des Seins ausgerichtet.</s>
+<s>Im Dasein</s></p>
+<p><s>wird die Distanz zum Zuhandenen ent-fernt.</s>
+<s>Es rückt in die Nähe und wird so</s></p>
+<p><s>erst zum Zuhandenen. Entfernen besagt ein Verschwindenmachen der Ferne, das</s></p>
+<p><s>heißt der Entferntheit von etwas, Näherung. (SuZ, S. 105). Der Raum, der im</s></p>
+<p><s>umsichtigen In-der-Welt-sein als Räumlichkeit des Zeugganzen entdeckt ist,</s></p>
+<p><s>gehört je als dessen Platz zum Seienden selbst.  Der Raum ist in die Plätze</s></p>
+<p><s>aufgesplittert (SuZ, S. 104).</s>
+<s>Wichtig ist hier die Wechselwirkung zwischen dem</s></p>
+<p><s>Seienden und dem Platz, der Teil des Raumes ist. </s></p>
+<p><s>In einem kooperativen Texteditor ist der Ort gegeben durch den im Editor</s></p>
+<p><s>angezeigten Text-Bereich.</s>
+<s>So kann eine Benutzerin oder ein Benutzer auf Seite</s></p>
+<p><s>117 arbeiten und damit den Text auf Seite 117 ent-fernen, also in ihre oder</s></p>
+<p><s>seine Nähe und Aufmerksamkeit rücken.</s>
+<s>Dass die Person den Text nicht physisch in</s></p>
+<p><s>Händen hält sondern vielleicht aus einer großen Distanz auf eine digitale</s></p>
+<p><s>Repräsentation des Textes zugreift, ist bei der Wahrnehmung des Ortes im</s></p>
+<p><s>kooperativen System sekundär.</s>
+<s>Das Werkzeug (der Computer) hat in diesem Fall</s></p>
+<p><s>einen anderen (physikalischen) Ort als der mit dem Werkzeug bearbeitete Text.</s></p>
+<p><s>Wie genau ein Ort definiert wird, hängt mit der Distanz des Subjekts zum Ort</s></p>
+<p><s>zusammen.</s>
+<s>Je intensiver der Umgang des Subjekts mit dem Zuhandenen, desto enger</s></p>
+<p><s>ist die Beziehung und desto genauer lässt sich ein Ort spezifizieren.</s>
+<s>Zeigt eine</s></p>
+<p><s>Person einen Text an, so kann man lediglich den Textausschnitt, der aktuell</s></p>
+<p><s>sichtbar ist, als Ort der Person benennen.</s>
+<s>Versucht die Person den Text zu</s></p>
+<p><s>verstehen, so besteht der Ort ebenso aus den Konzepten, die im Text besprochen</s></p>
+<p><s>werden.</s>
+<s>Wird der Text manipuliert, so zielt die Ausrichtung des Daseins auf</s></p>
+<p><s>genau die Position im Text, an der Veränderungen vorgenommen werden sollen</s></p>
+<p><s>(welche durch einen Cursor visualisiert ist). </s></p>
+<p><s>Das Konzept von Raum und Ort kann in kooperativen Systemen somit immer aus</s></p>
+<p><s>verschiedenen Perspektiven analysiert werden.</s>
+<s>Alle Sichten können für die</s></p>
+<p><s>Vermittlung von Gruppenwahrnehmungsinformationen relevant sein.</s>
+<s>Hierbei spielt</s></p>
+<p><s>die Identität der co-präsenten Personen eine Rolle.</s></p>
+<p><s><mark name="item-0" />Dasein (Presence): Die Kernfrage zu diesem Aspekt ist: Befindet sich eine</s></p>
+<p><s>Person in einem Kooperationsraum?</s>
+<s>Der Raum wird von Gutwin und Greenberg analog</s></p>
+<p><s>zum Raumverständnis von Heidegger nicht rein physikalisch interpretiert.</s></p>
+<p><s>Vielmehr geht es bei der Definition des Raumes um die Nähe zwischen der Person,</s></p>
+<p><s>die mit ihrem In-der-Welt-sein Dasein zeigt und so eine Beziehung zum Zuhandenen</s></p>
+<p><s>eingeht. Das Hier meint nicht das Wo eines Vorhandenen, sondern das Wobei</s></p>
+<p><s>eines ent-fernenden Seins beiin eins mit dieser Ent-fernung.</s>
+<s>Das</s></p>
+<p><s>Dasein (SuZ, S. 107f.) Für die Präsenz eines Menschen ist vor allem die</s></p>
+<p><s>Beziehung des Menschen zu Artefakten, zum Zuhandenen, im abstrakten Raum.</s>
+In</p>
+<p><s>diesem entwickelt der Mensch die Umsicht des</s></p>
+<p><s>Besorgens (SuZ, S. 108).</s>
+<s>Dasein ist nach Heidegger von der Sorge her zu</s></p>
+<p><s>interpretieren. </s></p>
+<p><s><mark name="citation-luckner2001" />Luckner (<say-as interpret-as="date" format="y">2001</say-as>) verdeutlicht dies mit einer auf den ersten Blick</s></p>
+<p><s>etwas kindlichen Analogie: Sie kennen sicher alle die Frage bei einem</s></p>
+<p><s>Kindertheater, wo der Kasper fragt: Seid ihr alle da?.</s>
+<s>Die Antwort scheint</s></p>
+<p><s>auf den ersten Blick banal: Natürlich sind die Kinder im Saal.</s>
+<s>Der Hintergrund</s></p>
+<p><s>der Frage muss demnach ein anderer sein.</s>
+<s>Schaut man genauer hin, so wird klar,</s></p>
+<p><s>dass die Frage nach dem Da-sein primär eine Frage nach der Aufmerksamkeit, der</s></p>
+<p><s>Sorge für das Geschehen auf der Bühne ist.</s>
+<s>Der Puppenspieler klärt mit dieser</s></p>
+<p><s>Frage, ob die Aufmerksamkeit der Kinder bei dem Theaterstück auf der Bühne ist.</s></p>
+<p><s>Unbewusst erlebtes Dasein wird zu einem Wahrgenommenen Dort-sein.</s></p>
+<p><s>Für die Vermittlung von sozialer Präsenz in kooperativen Systemen ergibt sich</s></p>
+<p><s>hieraus, dass bei der Modellierung von Präsenz vor allem die Beziehung der</s></p>
+<p><s>Daseienden zu den ihre Aufmerksamkeit bindenden Inhalten zu betrachten ist.</s></p>
+<p><s>Dasein heißt, dass der Fokus auf das gelegt wird, was da ist.</s>
+<s>Es ist legitim,</s></p>
+<p><s>vom Dasein bei einem Informationsobjekt zu sprechen.</s>
+<s>Ein Autor ist bei einem Absatz, den er gerade schreibt.</s>
+<s>Eine Anwältin ist bei einem Paragraphen, den sie gerade studiert.</s></p>
+<p><s><mark name="discussion"/><prosody rate="slow" pitch="low">Diskussion</prosody><break strength="strong" /></s></p>
+<p><s>Im Dasein geht das Subjekt im Dort auf.</s>
+<s>Positiv formuliert kommt es im Dort zu</s></p>
+<p><s>seiner eigentlichen Existenz.</s>
+<s>Indem wir sagen, dass das Subjekt da ist, steht es</s></p>
+<p><s>aus dem Nichtsein heraus, verwandelt potentielles Sein in aktuelles Sein.</s></p>
+<p><s>Versuchen Sie mit Bekannten darüber ins Gespräch zu kommen, was es bedeutet, da</s></p>
+<p><s>zu sein, präsent zu sein.</s>
+<s>Betrachten Sie dazu die folgenden Beispiele:</s></p>
+<p><s><break strength="medium" /></s></p>
+<p><s><mark name="item-1" /> Max, 13 Jahre, ist leidenschaftlicher Computerspieler.</s>
+<s>Seine Mutter meint,</s></p>
+<p><s>er würde in dem Spiel aufgehen.</s>
+<s>Gefühlt bewegt er sich in einem virtuellen Raum.</s></p>
+<p><s>Sein kleiner Bruder Paul, 7 Jahre, schaut hingegen gerne bei Max ins Zimmer und</s></p>
+<p><s>sieht dort Max sitzen.</s>
+<s>Paul ist verärgert, dass Max gar nicht reagiert, wenn</s></p>
+<p><s>Paul ihn anspricht.</s></p>
+<p><s><mark name="item-0" /> Heidrun, 47 Jahre, hatte ein anstrengendes Arbeitsjahr.</s>
+<s>Seit zwei Tagen</s></p>
+<p><s>ist sie in ihrem wohlverdienten Urlaub.</s>
+<s>Sie ist nach Spanien an den Strand</s></p>
+<p><s>geflogen und lässt sich die Sonne auf den Leib scheinen.</s>
+<s>Und trotzdem ist sie in</s></p>
+<p><s>Gedanken noch bei der letzten Projektsitzung, bei der es zu vielfältigen</s></p>
+<p><s>Auseinandersetzungen mit ihrer Vorgesetzten kam.</s>
+<s>John, 48 Jahre, ihr</s></p>
+<p><s>Lebensgefährte, freut sich hingegen sehr, dass er mit Heidrun endlich einmal</s></p>
+<p><s>wieder in den Urlaub fahren kann.</s>
+<s>Auch er hat anstrengende Monate hinter sich</s></p>
+<p><s>und  ist jetzt froh, nur Wellen und Sand zu spüren.</s></p>
+
+<p><s>Wo würden Sie sagen, dass die einzelnen Personen in den Beispielen sind?</s>
+<s>Wie</s></p>
+<p><s>würden Sie für die Personen ihr Dasein beschreiben?</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Im Dasein mehrerer Personen wird aus dem Dasein ein Mitsein.</s>
+<s>Dies</s></p>
+<p><s>ist die Grundvoraussetzung für eine Begegnung - im realen genauso wie im</s></p>
+<p><s>virtuellen Raum.</s>
+<s>Das Mitdasein der Anderen begegnet vielfach aus dem</s></p>
+<p><s>innerweltlich Zuhandenen her.</s>
+<s>Aber auch wenn die Anderen in ihrem Dasein</s></p>
+<p><s>gleichsam thematisch werden, begegnen sie nicht als vorhandene Persondinge,</s></p>
+<p><s>sondern wir treffen sie bei der Arbeit, das heißt</s></p>
+<p><s>primär in ihrem In-der-Welt-sein. (SuZ, S. 120). </s></p>
+<p><s>In kooperativen Systemen wird das Dasein oft durch Zeichen (Icons oder</s></p>
+<p><s>graphische Repräsentationen der Daseienden) expliziert, so zum Beispiel im</s></p>
+<p><s><mark name="pattern-User List" /><break strength="medium" />User List<break strength="medium" /> Pattern.</s>
+<s>Auch hier hilft ein Blick in die Definition des</s></p>
+<p><s>Zeichens bei Heideggers Beschreibung des Pänomens der Verweisung:</s></p>
+<p><s>Zeichen sind  Zeuge, deren spezifischer Zeugcharakter im Zeigen</s></p>
+<p><s>besteht (SuZ, S. 77). Zeichen verweisen auf etwas, was gerade nicht zuhanden</s></p>
+<p><s>ist. <mark name="citation-luckner2001" />Luckner (<say-as interpret-as="date" format="y">2001</say-as>).</s>
+<s>Wird das Dasein durch ein Zeichen</s></p>
+<p><s>repräsentiert, so zeigt es ein potentielles Dasein, eine potentielle Nähe.</s></p>
+<p><s>Allerdings wird die Nutzung eines Zeichens für die mitseienden Personen in einem</s></p>
+<p><s>kooperativen System spätestens dann problematisch, wenn mit diesen interagiert</s></p>
+<p><s>werden soll (bspw. durch ein Kontextmenü auf dem Icon der Person, das die</s></p>
+<p><s>Adressierung einer Sofortnachricht an diese Person erlaubt).</s>
+<s>Wird die durch das</s></p>
+<p><s>Zeichen repräsentierte Person hier vom Mit-seinden zum Zuhandenen?</s></p>
+<p><s><mark name="item-1" />Identität (Identity) und Körperlichkeit (Embodiment): Das Mitsein</s></p>
+<p><s>der Anderen sagt wenig über das Selbst der jeweils anderen aus.</s>
+<s>In Kurseinheit 2 hatten wir das Konzept der (virtuellen) Identität bereits kennengelernt.</s>
+<s>Oben haben wir bereits die</s></p>
+<p><s>Repräsentation der anderen Person im kooperativen System angesprochen (wo sie</s></p>
+<p><s>zeichenhaft erfolgt).</s>
+<s>Eine phänomenologische Sicht beinhaltet als zentrales</s></p>
+<p><s>Element eine Unterscheidung zwischen dem Selbst und den Anderen.</s>
+<s>Jegliche</s></p>
+<p><s>Wahrnehmung ist perspektivisch und doch bleibt die Beschreibung des Subjekts bei</s></p>
+<p><s>Heidegger außerordentlich abstrakt. </s></p>
+<p><s>Ähnlich verhält es sich in vielen kooperativen Systemen.</s>
+<s>Nutzende werden mit</s></p>
+<p><s>einem Namen und eventuell mit einem Bild dargestellt.</s>
+<s>Ein Blick auf die Person</s></p>
+<p><s>hinter der Darstellung entfaltet sich vor allem über die von den Nutzenden</s></p>
+<p><s>durchgeführten Interaktionen mit dem System und mit den Anderen.</s>
+<s>Hierauf werden</s></p>
+<p><s>wir gleich noch zu sprechen kommen.</s>
+<s>An dieser Stelle bleibt festzuhalten, dass</s></p>
+<p><s>dadurch die Körperlichkeit der Personen in den Hintergrund tritt. </s></p>
+<p><s><mark name="example"/><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>Die Frage nach der Körperlichkeit bei der Wahrnehmung kooperativer Systeme hat in</s></p>
+<p><s>den letzten Jahren auf den ersten Blick skurile und dennoch interessante</s></p>
+<p><s>Forschungsarbeiten hervorgebracht.</s>
+<s>Ein Beispiel hierfür ist der Huggy</s></p>
+<p><s>Pajama <mark name="citation-Teh2008" />(Teh und Kollegen, <say-as interpret-as="date" format="y">2008</say-as>).</s>
+<s>Die Grundidee ist dabei, dass die Wahrnehmung zwischen</s></p>
+<p><s>Eltern und ihren Kleinkindern verbessert werden soll, indem die Eltern das</s></p>
+<p><s>Kleinkind aus der Ferne umarmen können.</s>
+<s>In einem Video demonstrieren die</s></p>
+<p><s>Forscherinnen der Gruppe ihren Ansatz: <mark name="video" />link{https://youtu.be/hQ6usrx-GPM}.</s></p>
+<p><s>Die Forschergruppe entwickelte einen Strampelanzug, der mit Aktuatoren und</s></p>
+<p><s>Senoren ausgerüstet war.</s>
+<s>Für die Eltern wurde ein Fernsteuerungs-Gerät</s></p>
+<p><s>entwickelt, das in eine Puppe eingebaut werden kann.</s>
+<s>Verspüren die Eltern das</s></p>
+<p><s>Bedürfnis, ihr Kleinkind zu umarmen, so drücken sie die Puppe (und damit die</s></p>
+<p><s>eingebetteten Sensoren).</s>
+<s>Sie Sensoren nehmen die Bewegung und den Druck der</s></p>
+<p><s>Eltern wahr und kommunizieren dies an den Empfangs-Client beim Kind.</s>
+<s>Dieser</s></p>
+<p><s>setzt die Signale daraufhin in Veränderungen des Strampelanzugs um.</s>
+<s>So zieht</s></p>
+<p><s>sich der Anzug z.B. bei Druck  der Eltern zusammen.</s>
+<s>Das Kind soll sich hierdurch</s></p>
+<p><s>umarmt fühlen. </s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s><mark name="item-0" />Herstellen (Authorship): Im Zuhandenen begegnet das Sein einem anderen Sein, das</s></p>
+<p><s>das Zuhandene für einen gewissen Zweck hergestellt hat.</s></p>
+<p><s>In kooperativen Systemen gibt man in der Regel die Autorin oder den Autor eines</s></p>
+<p><s>Objekts an.</s>
+<s>Damit wird mehr festgehalten, als die reine Urheberschaft.</s>
+<s>Im Objekt</s></p>
+<p><s>spricht die Autorin oder der Autor.</s>
+<s>Im Geschaffenen wird die Person deutlich,</s></p>
+<p><s>die das Artefakt geschaffen hat.</s></p>
+<p><s><mark name="item-1" />Absicht (Intention): Bei der Gestaltung kooperativer Systeme wird mit</s></p>
+<p><s>Intentionalität in der Regel eine explizite Kommunikation der Absicht der</s></p>
+<p><s>agierenden Person verstanden.</s>
+<s>Dies klingt zunächst simpel und ist aus</s></p>
+<p><s>technischer Perspektive auch einfach zu modellieren: Das System stellt für jede</s></p>
+<p><s>Nutzerin und jeden Nutzer eine Textfeld zur Verfügung, in dem die aktuelle</s></p>
+<p><s>Intention abgespeichert werden und bei anderen Nutzenden dargestellt werden</s></p>
+<p><s>kann.</s>
+<s>Das Muster <mark name="pattern-Activity Indicator" /><break strength="medium" />Activity Indicator<break strength="medium" /> ist ein Weg,</s></p>
+<p><s>Intentions-Informationen darzustellen.</s></p>
+<p><s><mark name="example"/><prosody rate="slow" pitch="low">Beispiel</prosody><break strength="strong" /></s></p>
+<p><s>Betrachten wir als Beispiel die Kooperation in einer Anwaltskanzlei, in der 5</s></p>
+<p><s>Mitarbeitende an einem Vertragsentwurf arbeiten.</s>
+<s>Clara Meyer nutzt hierzu einen</s></p>
+<p><s>kooperativen Texteditor und greift damit auf ein Vertragsdokument zu.</s>
+<s>Aus</s></p>
+<p><s>technischer Perspektive könnte das System jetzt folgenden <mark name="pattern-Activity</s></p>
+<p><s>Indicator" /><break strength="medium" />Activity</s></p>
+<p><s>Indicator<break strength="medium" /> anzeigen: </s></p>
+<p><s>Clara Meyer hat das Dokument Ferienregelung.txt geöffnet.</s></p>
+<p><s>Allerdings ist damit noch nicht klar, was Clara Meyer mit diesem Textdokument</s></p>
+<p><s>vor hat.</s>
+<s>Sie könnte den Vertrag lesen wollen.</s>
+<s>Sie könnte eine Vertragsänderung</s></p>
+<p><s>vorbereiten.</s>
+<s>Sie könnte das Vertragsdokument als Grundlage für einen neuen</s></p>
+<p><s>Vertrag überarbeiten wollen.</s>
+<s>Soll dieses Wissen in einem kooperativen System für</s></p>
+<p><s>andere Mitglieder der Gruppe explizit gemacht werden, müsste man zum Beginn der</s></p>
+<p><s>Arbeit mit dem Editor Frau Meyer nach ihrer Absicht befragen und diese</s></p>
+<p><s>Informationen für die anderen Mitglieder der Gruppe darstellen.</s></p>
+<p><s><break strength="strong" /></s></p>
+<p><s>Wie <mark name="citation-Zahavi2007" />Zahavi (<say-as interpret-as="date" format="y">2007</say-as>) feststellt, ist die Intentionalität ein zentrales</s></p>
+<p><s>Element einer phänomenologischen Untersuchung.</s>
+<s>Grundgedanke ist dabei, dass</s></p>
+<p><s>jedes Wahrnehmen und Handeln auf etwas ausgerichtet ist.</s>
+<s>Heidegger thematisiert</s></p>
+<p><s>dies bei seiner Definition des Zuhandenen: Der Umgang mit Zeug unterstellt sich der Verweisungsmanigfaltigkeit des Um-zu.  Das Herstellen selbst ist je ein Verwenden von etwas für etwas. (SuZ, S. 70f.). </s></p>
+<p><s>Anhand unseres Beispiels können wir aber auch die Problematik des</s></p>
+<p><s>Intentionsbewusstseins verdeutlichen: Während die Makro-Intention, die am Beginn</s></p>
+<p><s>des Eintritts in die Handlung steht, oft noch expliziert werden kann, ist dies</s></p>
+<p><s>gerade für kleinere Handlungseinheiten oft schwierig oder unmöglich.</s>
+<s>Stellen Sie</s></p>
+<p><s>sich vor, sie würden in einer Arbeitsgruppe an einem gemeinsamen Text</s></p>
+<p><s>kooperieren.</s>
+<s>Sie sind erfahren im Umgang mit dem Werkzeug.</s>
+<s>Viele Handlungen,</s></p>
+<p><s>bspw. die Bewegung des Cursors oder die Tastenkombination zur Erstellung eines</s></p>
+<p><s>Großbuchstabens sind Ihnen vertraut.</s>
+<s>Müssten Sie beim Druck jeder Taste, also</s></p>
+<p><s>bei der kleinesten vom Computer wahrnehmabaren Aktion, eine Intention angeben,</s></p>
+<p><s>so würde dies Ihren Arbeitsfluss unmöglich machen - denn auch für das</s></p>
+<p><s>Verschriftlichen der Intention ist wieder die Nutzung der Tastatur nötig.  </s></p>
+<p><s>Dass Problem liegt vor allem an der zeitlichen Dimension des Daseins.</s>
+<s>Erst in</s></p>
+<p><s>der zeitlichen Dimension entsteht der Sinn des Daseins.</s>
+<s>Heidegger unterscheidet</s></p>
+<p><s>drei Modi der Zeitlichkeit:  Die Zukunft, die Gegenwart und die Gewesenheit.</s>
+<s>Die</s></p>
+<p><s>Zukunft ist für Heidegger das zentrale Element, denn erst die Zukünftigkeit</s></p>
+<p><s>des Daseins ergibt überhaupt so etwas wie Gegenwart <mark name="citation-luckner2001" />Luckner (<say-as interpret-as="date" format="y">2001</say-as>).</s></p>
+<p><s>Soll in dieser aus der Zukunft definierten Gegenwart das Wozu, also die</s></p>
+<p><s>Intention, ihren Platz finden, so muss das Wozu vergegenwärtigt werden.</s>
+<s>Doch</s></p>
+<p><s>das Gegenwärtigen des Wozu ist weder ein Betrachten des</s></p>
+<p><s>Zwecks, noch ein Erwarten des bevorstehenden</s></p>
+<p><s>Fertigwerdens des herzustellenden Werkes. (SuZ, S. 353).</s>
+<s>Was Heidegger hier</s></p>
+<p><s>beschreibt ist die explizite Auseinandersetzung mit der aktuellen</s></p>
+<p><s>(entschlossenen) Tätigkeit.</s>
+<s>Würde diese Reflexion den kompletten Spielraum des</s></p>
+<p><s>möglichen Umgangs mit dem Zuhandenen umfassen, wäre jedoch kein Platz mehr für</s></p>
+<p><s>die eigentliche Aktivität.</s>
+<s>Deshalb baut entschlossenes Handeln in der Regel auf</s></p>
+<p><s>implizitem Handlungswissen auf.</s>
+<s>Praktikerinnen und Praktiker agieren, ohne genau</s></p>
+<p><s>sagen zu können, wie sie agieren und welchen detaillierten Zweck sie aktuell</s></p>
+<p><s>verfolgen. <mark name="citation-polanyi66" />Polanyi (<say-as interpret-as="date" format="y">1966</say-as>) hat diesen Zusammenhang zwischen Handeln und</s></p>
+<p><s>Reflexion des Handelns genauer untersucht und den Begriff Tacit Knowledge</s></p>
+<p><s>geprägt, dem stillen oder stummen Wissen, das sich im Handeln ausdrückt, ohne</s></p>
+<p><s>jedoch explizit gegenwärtig zu werden. </s></p>
+<p><s>Umgangssprachlich könnten wir sagen, dass die Aktion gerade nicht hinterfragt</s></p>
+<p><s>werden muss, dass man sie einfach so stehen lassen kann, dass wir sie auf</s></p>
+<p><s>sich bewenden lassen können. Das Bewendenlassen verstehen wir existenzial als</s></p>
+<p><s>ein Sein-lasen.</s>
+<s>Auf seinem Grunde kann das</s></p>
+<p><s>Zuhandene als das Seiende, das es ist, für die Umsicht begegnen. (SuZ,</s></p>
+<p><s>S. 354). </s></p>
+<p><s>Bei der Erfassung und Darstellung von Intentionsbewusstseinsinformationen ist</s></p>
+<p><s>deshalb die Frage des Sein-lassens zentral: Sie</s></p>
+<p><s>müssen klären, wann Sie den potentiellen Aktionsfluss unterbrechen, um die</s></p>
+<p><s>Reflexionsebene zu betreten, in der die Nutzenden das Wozu beschreiben können -</s></p>
+<p><s>und Sie sollten sich darüber im Klaren sein, dass die Intention nicht immer</s></p>
+<p><s>verbalisiert werden kann. </s></p>
+
+<p><s>Auch wenn noch weitere Begriffe für ein umfassendes phänomenologisches Verständnis der Awareness analysiert werden könnten, sollen für diese Kurseinheit die bisher betrachteten Begriffe genügen.</s>
+<s>Wenn wir Group Awareness vor diesem Hintergrund erneut definieren, liest sich diese Definition wie folgt:</s></p>
+<p><s><break strength="medium" />Zitat<break strength="medium" /></s></p>
+<p><s>Das Gewahrsein des Daseins im Kontext des Mit-Seins zielt auf das Verstehen des besorgten Da-Seins der Anderen in der gemeinsamen Umwelt mit dem Ziel, die Entschlossenheit zum Da-sein in dieser gemeinsamen Umwelt zu ermöglichen.</s></p>
+<p><s><break strength="medium" />Zitatende<break strength="medium" /></s></p>
+
+
+</speak>

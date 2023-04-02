@@ -1,0 +1,153 @@
+#page {
+    font-family: 'Metropolis', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: var(--main-text-color);
+}
+
+button:focus {
+    outline: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: var(--button-primary-background-color);
+    border-color: var(--button-primary-background-color);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #fff;
+    color: var(--button-primary-background-color);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--button-primary-hover-color);
+    border-color: var(--button-primary-hover-color);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: var(--button-primary-disabled-color);
+    border-color: var(--button-primary-disabled-color);
+}
+
+.btn-outline-primary {
+    color: var(--button-background-color);
+    background-color: #fff;
+    border-color: var(--button-primary-background-color);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--button-primary-hover-color);
+    border-color: var(--button-primary-hover-color);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    background-color: #fff;
+    color: var(--button-primary-background-color);
+}
+
+/* Default range styling */
+
+input[type=range] {
+    --volume-range-color: var(--button-primary-background-color);
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+input[type=range]:focus {
+    outline: none;
+    --volume-range-color: var(--button-primary-hover-color);
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--volume-range-color);
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid var(--volume-range-color);
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background: var(--volume-range-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #fff;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--volume-range-color);
+}
+input[type=range]::-moz-range-thumb {
+    border: 1px solid var(--volume-range-color);
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background: var(--volume-range-color);
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #fff;
+    border: 1px solid var(--volume-range-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px var(--volume-range-color);
+}
+input[type=range]::-ms-fill-upper {
+    background: #fff;
+    border: 1px solid var(--volume-range-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px var(--volume-range-color);
+}
+input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px var(--volume-range-color);
+    border: 1px solid var(--volume-range-color);
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background: var(--volume-range-color);
+    cursor: pointer;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    --volume-range-color: var(--button-primary-hover-color);
+}
+
+[type="radio"],
+[type="checkbox"] {
+    accent-color: var(--button-primary-background-color);
+  }
+
+/* header styles */
+a {
+    pointer-events: all;
+}
+.hypercast-audioplayer-header a {
+    transition: color 0.2s;
+    font-size: 20pt;
+    cursor: pointer;
+    color: var(--main-text-color);
+}
+.hypercast-audioplayer-header a:hover {
+    color: var(--link-hover-color);
+}

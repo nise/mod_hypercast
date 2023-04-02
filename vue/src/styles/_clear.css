@@ -1,0 +1,5 @@
+/* These Elements are automatically injected by moodle and do not serve any purpose in our app. */
+/* Furthermore, they disturb the design and flow of our app. Therefore they should be removed. */
+#page-footer, #goto-top-link {
+    display: none;
+}

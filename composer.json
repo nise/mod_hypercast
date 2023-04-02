@@ -1,0 +1,17 @@
+{
+    "name": "moodle/hypercast",
+    "license": "GPL-3.0-or-later",
+    "description": "Moodle - the world's open source learning platform",
+    "type": "project",
+    "homepage": "https://moodle.org",
+    "require-dev": {
+        "moodlehq/behat-extension": "3.310.3",
+        "mikey179/vfsstream": "^1.6",
+        "moodle/moodle": "v3.10.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}

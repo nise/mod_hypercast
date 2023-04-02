@@ -1,0 +1,9 @@
+{
+    "formatOnSave": true,
+    "singleQuote": true,
+    "printWidth": 80,
+    "semi": true,
+    "useTabs": false,
+    "trailingComma": "es5",
+    "editorconfig": true
+}

@@ -1,0 +1,19 @@
+#page {
+    --main-text-color: #19191B;
+
+    --link-hover-color: #3C3C41;
+
+    --button-primary-text-color: #FFFFFF;
+    --button-primary-background-color: #19191B;
+    --button-primary-hover-color: #3C3C41;
+    --button-primary-disabled-color: #3C3C41;
+
+    --progress-bar-background-color: #D9D9D9;
+    --progress-bar-user-progress-color: #19191B;
+    --progress-bar-group-progress-color: #aa0000;
+    --progress-bar-tooltip-background-color: #ffffff;
+
+    --border-color-dark: #19191B;
+    --border-color-light: #D9D9D9;
+
+}

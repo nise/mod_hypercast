@@ -49,7 +49,7 @@ jeweils im Verlauf der Audiodatei, sowie absolute Zahlen zu Gruppen und Kommenta
 
 
 ## Hyperaudio-Quelldateien
- 
+
  Im Ordner 'assets/hyperaudio' finden sich die Audio-Quellen, Bildquellen Marker, SSML und eine aus den Markern generierte VTT. Um Marker-Datein in VTTs umzuwandeln gibt es unter data/tools ein Python-Script. Es ist zu beachten, dass die Marker-Dateien vorab in valide JSON-Dateien umgewandelt werden müssen.
  Für den Prototypen wurde exemplarisch eine Beispieldatei (KE6) eingebunden. Zum Einbinden anderer Dateien müssen die Referenzen auf die jeweiligen Dateien entsprechend geändert werden.
 
@@ -83,7 +83,7 @@ Moodle und das Plugin werden installiert, die Testdaten angelegt und über local
 
 ## JavaScript-Änderungen bzw. Vue-Änderungen übernehmen
 Für das Frontend sollten Sie hauptsächlich im Ordner `vue` arbeiten. Dort können Sie JavaScript- bzw. Vue-Dateien anlegen.
-Führen Sie den Befehl `npm run build` mithilfe des Terminals in diesen Verzeichnis des Plugins aus, um die Änderungen minifiziert einmalig zu übernehmen. 
+Führen Sie den Befehl `npm run build` mithilfe des Terminals in diesen Verzeichnis des Plugins aus, um die Änderungen minifiziert einmalig zu übernehmen.
 Möchten Sie, dass die Änderungen automatisch nach dem Speichern übernommen werden, rufen Sie den Befehl `npm run nodemon` auf.
 
 ## Lizenzen
@@ -91,5 +91,5 @@ Unser Plugin steht unter GNU GPLv3-Lizenz, die im Repository in der Datei licens
 Unser Icon steht unter CC-BY-NC.
 Die genutzten Soundeffekts stammen von [pixabay](https://pixabay.com/) und stehen unter Royalty Free, die Fonts unter Unlicense und Open Font License.
 
-## Credits: 
-Contributors: Frank Langenbrink, Robin Dürhager, Veronika Stirling, Marcel Goldammer, Alexander Henze, Joachim Otto
+## Credits:
+xxx

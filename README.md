@@ -5,6 +5,11 @@ Das Moodle-Plugin HyperCast stellt den Prototypen für einen kollaborativen Audi
 ## Funktionen
 
 HyperCast bietet folgende Grundfunktionen:
+* group management
+* hyperaudio player
+* comments
+* collaborative live sessions
+* usage statistics
 
 ### Gruppenverwaltung
 - Studierende eines Kurses können sich in kleineren Gruppen von maximal 20 Mitgliedern zusammenschließen, um gemeinsam einen vertonten Kurstext anzuhören und zu kommentieren
@@ -87,9 +92,9 @@ Führen Sie den Befehl `npm run build` mithilfe des Terminals in diesen Verzeich
 Möchten Sie, dass die Änderungen automatisch nach dem Speichern übernommen werden, rufen Sie den Befehl `npm run nodemon` auf.
 
 ## Lizenzen
-Unser Plugin steht unter GNU GPLv3-Lizenz, die im Repository in der Datei license.md hinterlegt ist. Dies gilt auch für die verwendeten Packages und Dienste. Diese stehen unter MIT-Lizenz oder abweichenden, mit der Weitergabe des Plugins unter MIT-Lizenz kompatiblen, Lizenzen (meist Apache 2.0, BSD-2 oder 3). Dies gilt auch für moodle (GPL 3.0).
-Unser Icon steht unter CC-BY-NC.
+Das Plugin steht unter GNU GPLv3-Lizenz, die im Repository in der Datei license.md hinterlegt ist. Dies gilt auch für die verwendeten Packages und Dienste. Diese stehen unter MIT-Lizenz oder abweichenden, mit der Weitergabe des Plugins unter MIT-Lizenz kompatiblen, Lizenzen (meist Apache 2.0, BSD-2 oder 3). Dies gilt auch für moodle (GPL 3.0).
+Das Icon steht unter CC-BY-NC.
 Die genutzten Soundeffekts stammen von [pixabay](https://pixabay.com/) und stehen unter Royalty Free, die Fonts unter Unlicense und Open Font License.
 
 ## Credits:
-xxx
+Robin Dürhager, Marcel Goldammer, Alexander Henze, Frank Langenbrink, Joachim Otto, Veronika Stirling, Niels Seidel (project super visor)
